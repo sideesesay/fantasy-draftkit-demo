@@ -1,0 +1,10 @@
+{
+  "dataset": "Synthetic Draft Lab fictional demo data",
+  "seed": 20260905,
+  "player_rows": 192,
+  "history_rows": 768,
+  "external_sources": [],
+  "identity_rule": "Every player name starts with 'Demo ' and every club starts with 'Demo Club '.",
+  "generator": "scripts/generate_synthetic_data.py",
+  "license_scope": "Original fictional demo data distributed with this project."
+}

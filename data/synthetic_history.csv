@@ -1,0 +1,769 @@
+player_id,season_index,season_label,games,points,points_per_game,opportunities_per_game,is_synthetic
+SYN-025,-3,Demo year -3,14,331.9,23.71,17.94,True
+SYN-025,-2,Demo year -2,16,326.6,20.41,15.82,True
+SYN-025,-1,Demo year -1,14,308.7,22.05,17.8,True
+SYN-025,0,Current demo,16,303.9,18.99,15.19,True
+SYN-085,-3,Demo year -3,16,291.7,18.23,10.95,True
+SYN-085,-2,Demo year -2,13,283.4,21.8,9.53,True
+SYN-085,-1,Demo year -1,17,304.5,17.91,9.07,True
+SYN-085,0,Current demo,16,309.2,19.33,8.92,True
+SYN-086,-3,Demo year -3,14,279.7,19.98,10.62,True
+SYN-086,-2,Demo year -2,13,267.5,20.58,9.04,True
+SYN-086,-1,Demo year -1,16,276.1,17.26,7.24,True
+SYN-086,0,Current demo,13,292.9,22.53,11.88,True
+SYN-028,-3,Demo year -3,13,238.7,18.36,16.9,True
+SYN-028,-2,Demo year -2,15,263.1,17.54,15.87,True
+SYN-028,-1,Demo year -1,14,272.6,19.47,17.98,True
+SYN-028,0,Current demo,14,294.6,21.04,16.01,True
+SYN-089,-3,Demo year -3,16,278.7,17.42,11.63,True
+SYN-089,-2,Demo year -2,13,296.1,22.78,11.54,True
+SYN-089,-1,Demo year -1,16,297.6,18.6,9.29,True
+SYN-089,0,Current demo,14,264.8,18.91,10.71,True
+SYN-087,-3,Demo year -3,16,301.1,18.82,8.81,True
+SYN-087,-2,Demo year -2,14,273.8,19.56,11.13,True
+SYN-087,-1,Demo year -1,13,297.6,22.89,11.82,True
+SYN-087,0,Current demo,16,306.3,19.15,10.21,True
+SYN-027,-3,Demo year -3,17,310.9,18.29,17.05,True
+SYN-027,-2,Demo year -2,17,282.2,16.6,17.1,True
+SYN-027,-1,Demo year -1,17,300.0,17.65,17.51,True
+SYN-027,0,Current demo,14,321.8,22.98,16.02,True
+SYN-157,-3,Demo year -3,14,210.0,15.0,6.87,True
+SYN-157,-2,Demo year -2,13,232.2,17.86,8.01,True
+SYN-157,-1,Demo year -1,13,251.4,19.34,8.69,True
+SYN-157,0,Current demo,13,263.0,20.23,5.97,True
+SYN-026,-3,Demo year -3,16,289.0,18.06,17.1,True
+SYN-026,-2,Demo year -2,13,312.1,24.01,16.8,True
+SYN-026,-1,Demo year -1,17,311.4,18.32,14.96,True
+SYN-026,0,Current demo,13,285.0,21.93,16.32,True
+SYN-088,-3,Demo year -3,14,296.2,21.16,8.12,True
+SYN-088,-2,Demo year -2,17,268.4,15.79,10.08,True
+SYN-088,-1,Demo year -1,15,288.1,19.2,7.93,True
+SYN-088,0,Current demo,17,276.8,16.28,10.69,True
+SYN-030,-3,Demo year -3,15,262.3,17.49,14.57,True
+SYN-030,-2,Demo year -2,15,293.7,19.58,16.46,True
+SYN-030,-1,Demo year -1,13,304.4,23.42,18.64,True
+SYN-030,0,Current demo,15,307.3,20.49,15.81,True
+SYN-029,-3,Demo year -3,13,275.6,21.2,15.46,True
+SYN-029,-2,Demo year -2,16,289.3,18.08,16.78,True
+SYN-029,-1,Demo year -1,15,295.8,19.72,14.7,True
+SYN-029,0,Current demo,16,293.7,18.36,16.41,True
+SYN-001,-3,Demo year -3,14,347.3,24.8,34.59,True
+SYN-001,-2,Demo year -2,16,356.3,22.27,36.2,True
+SYN-001,-1,Demo year -1,15,362.7,24.18,37.09,True
+SYN-001,0,Current demo,17,389.1,22.89,38.23,True
+SYN-090,-3,Demo year -3,16,299.7,18.73,9.5,True
+SYN-090,-2,Demo year -2,15,268.5,17.9,7.55,True
+SYN-090,-1,Demo year -1,14,306.1,21.86,10.91,True
+SYN-090,0,Current demo,14,270.3,19.31,9.4,True
+SYN-092,-3,Demo year -3,15,246.3,16.42,7.79,True
+SYN-092,-2,Demo year -2,13,272.4,20.95,8.06,True
+SYN-092,-1,Demo year -1,13,295.2,22.71,7.76,True
+SYN-092,0,Current demo,15,304.1,20.28,9.16,True
+SYN-091,-3,Demo year -3,15,266.7,17.78,10.02,True
+SYN-091,-2,Demo year -2,14,277.2,19.8,8.55,True
+SYN-091,-1,Demo year -1,16,288.4,18.03,9.5,True
+SYN-091,0,Current demo,14,277.5,19.82,11.93,True
+SYN-093,-3,Demo year -3,17,296.4,17.44,11.83,True
+SYN-093,-2,Demo year -2,16,274.5,17.16,9.42,True
+SYN-093,-1,Demo year -1,13,283.1,21.77,11.17,True
+SYN-093,0,Current demo,15,272.9,18.19,11.78,True
+SYN-095,-3,Demo year -3,17,236.4,13.9,10.34,True
+SYN-095,-2,Demo year -2,15,235.9,15.73,9.66,True
+SYN-095,-1,Demo year -1,14,253.7,18.12,8.32,True
+SYN-095,0,Current demo,17,283.6,16.68,7.17,True
+SYN-158,-3,Demo year -3,17,231.3,13.6,8.82,True
+SYN-158,-2,Demo year -2,13,240.6,18.51,7.59,True
+SYN-158,-1,Demo year -1,16,271.8,16.99,7.41,True
+SYN-158,0,Current demo,15,265.1,17.67,7.44,True
+SYN-032,-3,Demo year -3,14,279.4,19.96,16.72,True
+SYN-032,-2,Demo year -2,15,274.8,18.32,14.72,True
+SYN-032,-1,Demo year -1,15,286.3,19.08,15.37,True
+SYN-032,0,Current demo,15,310.1,20.67,18.96,True
+SYN-031,-3,Demo year -3,17,311.1,18.3,17.69,True
+SYN-031,-2,Demo year -2,17,305.6,17.98,17.03,True
+SYN-031,-1,Demo year -1,13,272.6,20.97,15.47,True
+SYN-031,0,Current demo,13,302.0,23.23,17.65,True
+SYN-034,-3,Demo year -3,17,269.9,15.87,17.59,True
+SYN-034,-2,Demo year -2,17,251.8,14.81,19.24,True
+SYN-034,-1,Demo year -1,16,279.1,17.45,17.89,True
+SYN-034,0,Current demo,16,270.7,16.92,16.6,True
+SYN-096,-3,Demo year -3,15,236.6,15.78,11.89,True
+SYN-096,-2,Demo year -2,15,226.2,15.08,10.73,True
+SYN-096,-1,Demo year -1,17,244.6,14.39,11.29,True
+SYN-096,0,Current demo,15,248.9,16.59,9.63,True
+SYN-033,-3,Demo year -3,16,258.6,16.16,17.27,True
+SYN-033,-2,Demo year -2,16,286.3,17.89,19.07,True
+SYN-033,-1,Demo year -1,17,275.1,16.18,17.0,True
+SYN-033,0,Current demo,13,310.2,23.86,18.16,True
+SYN-159,-3,Demo year -3,14,218.2,15.59,4.94,True
+SYN-159,-2,Demo year -2,17,250.7,14.75,5.99,True
+SYN-159,-1,Demo year -1,15,243.1,16.2,4.49,True
+SYN-159,0,Current demo,15,245.2,16.35,4.44,True
+SYN-094,-3,Demo year -3,15,268.9,17.92,10.6,True
+SYN-094,-2,Demo year -2,13,245.6,18.89,8.84,True
+SYN-094,-1,Demo year -1,17,255.7,15.04,10.1,True
+SYN-094,0,Current demo,14,244.0,17.43,8.63,True
+SYN-160,-3,Demo year -3,13,213.1,16.39,6.43,True
+SYN-160,-2,Demo year -2,15,221.9,14.79,4.94,True
+SYN-160,-1,Demo year -1,17,223.4,13.14,8.28,True
+SYN-160,0,Current demo,14,244.2,17.44,5.2,True
+SYN-002,-3,Demo year -3,15,309.2,20.62,38.09,True
+SYN-002,-2,Demo year -2,16,349.4,21.84,35.3,True
+SYN-002,-1,Demo year -1,17,365.4,21.49,35.03,True
+SYN-002,0,Current demo,13,406.9,31.3,36.02,True
+SYN-035,-3,Demo year -3,16,246.3,15.39,15.64,True
+SYN-035,-2,Demo year -2,13,234.0,18.0,18.54,True
+SYN-035,-1,Demo year -1,17,252.6,14.86,17.91,True
+SYN-035,0,Current demo,17,290.8,17.11,19.42,True
+SYN-098,-3,Demo year -3,17,251.2,14.78,10.79,True
+SYN-098,-2,Demo year -2,14,243.4,17.38,10.32,True
+SYN-098,-1,Demo year -1,14,269.8,19.27,9.59,True
+SYN-098,0,Current demo,15,249.8,16.65,8.58,True
+SYN-036,-3,Demo year -3,16,303.5,18.97,18.92,True
+SYN-036,-2,Demo year -2,15,258.4,17.23,15.34,True
+SYN-036,-1,Demo year -1,17,297.9,17.52,16.46,True
+SYN-036,0,Current demo,15,282.4,18.83,14.78,True
+SYN-097,-3,Demo year -3,15,277.0,18.47,10.52,True
+SYN-097,-2,Demo year -2,13,264.1,20.31,9.88,True
+SYN-097,-1,Demo year -1,13,248.2,19.09,9.37,True
+SYN-097,0,Current demo,17,274.7,16.16,10.16,True
+SYN-161,-3,Demo year -3,16,227.9,14.24,5.33,True
+SYN-161,-2,Demo year -2,16,244.6,15.29,6.94,True
+SYN-161,-1,Demo year -1,16,244.5,15.28,7.15,True
+SYN-161,0,Current demo,14,257.1,18.36,6.87,True
+SYN-003,-3,Demo year -3,15,325.3,21.69,36.62,True
+SYN-003,-2,Demo year -2,17,342.9,20.17,35.05,True
+SYN-003,-1,Demo year -1,14,362.7,25.91,33.95,True
+SYN-003,0,Current demo,14,391.9,27.99,36.81,True
+SYN-037,-3,Demo year -3,16,281.1,17.57,14.81,True
+SYN-037,-2,Demo year -2,16,288.1,18.0,18.86,True
+SYN-037,-1,Demo year -1,14,288.4,20.6,14.53,True
+SYN-037,0,Current demo,13,250.8,19.29,15.22,True
+SYN-099,-3,Demo year -3,14,259.6,18.54,9.94,True
+SYN-099,-2,Demo year -2,16,239.1,14.95,8.84,True
+SYN-099,-1,Demo year -1,14,253.3,18.1,8.66,True
+SYN-099,0,Current demo,14,270.3,19.31,7.3,True
+SYN-038,-3,Demo year -3,16,220.3,13.77,17.77,True
+SYN-038,-2,Demo year -2,14,221.2,15.8,17.11,True
+SYN-038,-1,Demo year -1,15,237.2,15.81,18.87,True
+SYN-038,0,Current demo,14,253.7,18.12,17.72,True
+SYN-164,-3,Demo year -3,17,204.2,12.01,4.93,True
+SYN-164,-2,Demo year -2,17,216.7,12.75,7.25,True
+SYN-164,-1,Demo year -1,14,198.9,14.21,4.39,True
+SYN-164,0,Current demo,17,208.8,12.28,5.49,True
+SYN-005,-3,Demo year -3,13,312.5,24.04,38.22,True
+SYN-005,-2,Demo year -2,17,326.6,19.21,37.35,True
+SYN-005,-1,Demo year -1,17,341.4,20.08,37.95,True
+SYN-005,0,Current demo,15,353.9,23.59,36.73,True
+SYN-100,-3,Demo year -3,16,264.3,16.52,11.61,True
+SYN-100,-2,Demo year -2,16,273.6,17.1,7.44,True
+SYN-100,-1,Demo year -1,16,267.9,16.74,10.97,True
+SYN-100,0,Current demo,14,293.6,20.97,7.87,True
+SYN-004,-3,Demo year -3,17,337.2,19.83,37.21,True
+SYN-004,-2,Demo year -2,14,345.4,24.67,36.6,True
+SYN-004,-1,Demo year -1,13,350.4,26.96,33.97,True
+SYN-004,0,Current demo,17,362.9,21.35,34.95,True
+SYN-040,-3,Demo year -3,15,243.4,16.23,19.27,True
+SYN-040,-2,Demo year -2,17,271.1,15.95,15.89,True
+SYN-040,-1,Demo year -1,16,249.8,15.61,16.25,True
+SYN-040,0,Current demo,15,251.8,16.78,17.14,True
+SYN-162,-3,Demo year -3,17,230.6,13.57,6.09,True
+SYN-162,-2,Demo year -2,16,223.0,13.94,8.34,True
+SYN-162,-1,Demo year -1,14,211.9,15.13,4.99,True
+SYN-162,0,Current demo,16,216.4,13.53,8.91,True
+SYN-101,-3,Demo year -3,17,238.4,14.03,11.33,True
+SYN-101,-2,Demo year -2,13,227.2,17.47,11.27,True
+SYN-101,-1,Demo year -1,14,223.4,15.95,8.49,True
+SYN-101,0,Current demo,15,239.3,15.95,11.71,True
+SYN-041,-3,Demo year -3,13,253.0,19.46,16.95,True
+SYN-041,-2,Demo year -2,14,253.5,18.11,19.25,True
+SYN-041,-1,Demo year -1,14,243.7,17.41,16.27,True
+SYN-041,0,Current demo,15,232.6,15.51,16.11,True
+SYN-039,-3,Demo year -3,13,264.5,20.35,16.23,True
+SYN-039,-2,Demo year -2,13,233.6,17.97,17.87,True
+SYN-039,-1,Demo year -1,15,272.8,18.19,18.1,True
+SYN-039,0,Current demo,17,246.2,14.48,15.22,True
+SYN-102,-3,Demo year -3,16,269.8,16.86,11.76,True
+SYN-102,-2,Demo year -2,16,246.0,15.37,7.9,True
+SYN-102,-1,Demo year -1,15,249.2,16.61,10.28,True
+SYN-102,0,Current demo,17,250.0,14.7,11.83,True
+SYN-165,-3,Demo year -3,13,217.4,16.72,5.72,True
+SYN-165,-2,Demo year -2,15,204.9,13.66,5.69,True
+SYN-165,-1,Demo year -1,14,208.3,14.88,5.05,True
+SYN-165,0,Current demo,14,208.8,14.91,8.67,True
+SYN-103,-3,Demo year -3,16,247.7,15.48,10.38,True
+SYN-103,-2,Demo year -2,16,251.9,15.75,9.47,True
+SYN-103,-1,Demo year -1,17,239.1,14.07,11.29,True
+SYN-103,0,Current demo,15,235.7,15.72,9.47,True
+SYN-163,-3,Demo year -3,14,214.7,15.34,5.17,True
+SYN-163,-2,Demo year -2,17,222.3,13.08,9.2,True
+SYN-163,-1,Demo year -1,15,235.3,15.68,7.03,True
+SYN-163,0,Current demo,15,207.2,13.81,6.69,True
+SYN-166,-3,Demo year -3,14,185.3,13.23,6.24,True
+SYN-166,-2,Demo year -2,15,227.0,15.13,8.11,True
+SYN-166,-1,Demo year -1,14,225.1,16.08,7.62,True
+SYN-166,0,Current demo,15,244.2,16.28,7.04,True
+SYN-042,-3,Demo year -3,16,225.8,14.11,15.18,True
+SYN-042,-2,Demo year -2,16,250.5,15.66,16.16,True
+SYN-042,-1,Demo year -1,17,238.0,14.0,17.79,True
+SYN-042,0,Current demo,14,269.5,19.25,16.7,True
+SYN-006,-3,Demo year -3,16,350.7,21.92,36.97,True
+SYN-006,-2,Demo year -2,17,318.9,18.76,36.11,True
+SYN-006,-1,Demo year -1,13,345.9,26.61,38.17,True
+SYN-006,0,Current demo,15,317.8,21.18,37.73,True
+SYN-106,-3,Demo year -3,16,237.5,14.85,10.26,True
+SYN-106,-2,Demo year -2,13,247.2,19.02,7.15,True
+SYN-106,-1,Demo year -1,17,266.3,15.66,7.35,True
+SYN-106,0,Current demo,17,230.2,13.54,7.11,True
+SYN-105,-3,Demo year -3,14,226.6,16.19,11.1,True
+SYN-105,-2,Demo year -2,13,254.5,19.58,11.49,True
+SYN-105,-1,Demo year -1,16,249.0,15.56,9.29,True
+SYN-105,0,Current demo,16,253.4,15.84,9.25,True
+SYN-104,-3,Demo year -3,17,233.1,13.71,9.02,True
+SYN-104,-2,Demo year -2,13,270.6,20.82,7.89,True
+SYN-104,-1,Demo year -1,13,259.5,19.96,11.11,True
+SYN-104,0,Current demo,15,242.7,16.18,7.56,True
+SYN-007,-3,Demo year -3,13,341.6,26.28,33.92,True
+SYN-007,-2,Demo year -2,17,339.3,19.96,38.13,True
+SYN-007,-1,Demo year -1,14,324.4,23.17,36.37,True
+SYN-007,0,Current demo,15,325.4,21.69,36.5,True
+SYN-043,-3,Demo year -3,13,228.0,17.54,16.41,True
+SYN-043,-2,Demo year -2,15,227.1,15.14,16.89,True
+SYN-043,-1,Demo year -1,16,231.2,14.45,17.39,True
+SYN-043,0,Current demo,13,273.2,21.02,17.07,True
+SYN-167,-3,Demo year -3,16,169.7,10.61,8.36,True
+SYN-167,-2,Demo year -2,15,178.8,11.92,8.65,True
+SYN-167,-1,Demo year -1,14,193.8,13.84,6.35,True
+SYN-167,0,Current demo,17,187.5,11.03,5.14,True
+SYN-046,-3,Demo year -3,15,221.9,14.79,16.55,True
+SYN-046,-2,Demo year -2,15,224.2,14.95,18.1,True
+SYN-046,-1,Demo year -1,17,223.1,13.12,15.13,True
+SYN-046,0,Current demo,15,247.5,16.5,18.92,True
+SYN-044,-3,Demo year -3,15,237.9,15.86,19.42,True
+SYN-044,-2,Demo year -2,17,255.0,15.0,18.39,True
+SYN-044,-1,Demo year -1,16,238.3,14.89,15.49,True
+SYN-044,0,Current demo,16,219.1,13.69,19.17,True
+SYN-109,-3,Demo year -3,13,204.1,15.7,9.7,True
+SYN-109,-2,Demo year -2,17,245.9,14.46,9.04,True
+SYN-109,-1,Demo year -1,13,227.9,17.53,9.46,True
+SYN-109,0,Current demo,13,228.7,17.59,8.78,True
+SYN-168,-3,Demo year -3,14,202.7,14.48,5.5,True
+SYN-168,-2,Demo year -2,17,194.4,11.43,5.4,True
+SYN-168,-1,Demo year -1,16,190.9,11.93,8.11,True
+SYN-168,0,Current demo,17,195.0,11.47,7.1,True
+SYN-045,-3,Demo year -3,15,208.8,13.92,15.61,True
+SYN-045,-2,Demo year -2,17,220.0,12.94,18.06,True
+SYN-045,-1,Demo year -1,15,234.5,15.64,18.44,True
+SYN-045,0,Current demo,14,225.6,16.11,17.14,True
+SYN-108,-3,Demo year -3,17,232.7,13.69,11.1,True
+SYN-108,-2,Demo year -2,16,217.9,13.62,10.82,True
+SYN-108,-1,Demo year -1,17,230.0,13.53,7.03,True
+SYN-108,0,Current demo,17,243.9,14.35,9.26,True
+SYN-107,-3,Demo year -3,13,247.9,19.07,9.87,True
+SYN-107,-2,Demo year -2,13,258.3,19.87,11.39,True
+SYN-107,-1,Demo year -1,13,237.0,18.23,8.06,True
+SYN-107,0,Current demo,13,271.5,20.88,9.42,True
+SYN-111,-3,Demo year -3,16,203.7,12.73,8.91,True
+SYN-111,-2,Demo year -2,16,207.9,12.99,8.5,True
+SYN-111,-1,Demo year -1,15,244.0,16.27,6.9,True
+SYN-111,0,Current demo,16,262.8,16.43,7.41,True
+SYN-169,-3,Demo year -3,14,186.4,13.31,7.69,True
+SYN-169,-2,Demo year -2,13,187.2,14.4,4.69,True
+SYN-169,-1,Demo year -1,15,203.7,13.58,6.03,True
+SYN-169,0,Current demo,14,201.0,14.36,9.12,True
+SYN-170,-3,Demo year -3,15,149.4,9.96,8.36,True
+SYN-170,-2,Demo year -2,17,159.3,9.37,7.6,True
+SYN-170,-1,Demo year -1,16,195.5,12.22,5.55,True
+SYN-170,0,Current demo,13,205.5,15.81,6.04,True
+SYN-008,-3,Demo year -3,13,304.7,23.44,34.64,True
+SYN-008,-2,Demo year -2,13,336.7,25.9,37.95,True
+SYN-008,-1,Demo year -1,17,333.9,19.64,35.67,True
+SYN-008,0,Current demo,13,297.6,22.89,34.95,True
+SYN-110,-3,Demo year -3,15,224.6,14.97,11.21,True
+SYN-110,-2,Demo year -2,14,241.2,17.23,10.37,True
+SYN-110,-1,Demo year -1,15,226.3,15.09,9.84,True
+SYN-110,0,Current demo,14,228.3,16.31,11.31,True
+SYN-048,-3,Demo year -3,17,203.0,11.94,17.42,True
+SYN-048,-2,Demo year -2,13,229.2,17.63,16.56,True
+SYN-048,-1,Demo year -1,13,227.7,17.51,15.94,True
+SYN-048,0,Current demo,13,257.5,19.81,16.69,True
+SYN-047,-3,Demo year -3,17,217.3,12.78,18.35,True
+SYN-047,-2,Demo year -2,15,248.6,16.57,15.3,True
+SYN-047,-1,Demo year -1,16,210.5,13.16,16.2,True
+SYN-047,0,Current demo,17,243.6,14.33,14.96,True
+SYN-113,-3,Demo year -3,15,216.0,14.4,11.56,True
+SYN-113,-2,Demo year -2,13,236.8,18.22,10.15,True
+SYN-113,-1,Demo year -1,13,222.3,17.1,10.13,True
+SYN-113,0,Current demo,13,216.1,16.62,9.71,True
+SYN-010,-3,Demo year -3,16,289.0,18.06,35.65,True
+SYN-010,-2,Demo year -2,16,284.8,17.8,37.31,True
+SYN-010,-1,Demo year -1,16,304.1,19.01,35.87,True
+SYN-010,0,Current demo,16,277.0,17.31,35.88,True
+SYN-050,-3,Demo year -3,17,178.4,10.49,17.89,True
+SYN-050,-2,Demo year -2,16,220.4,13.78,15.91,True
+SYN-050,-1,Demo year -1,13,244.9,18.84,18.21,True
+SYN-050,0,Current demo,17,256.9,15.11,19.06,True
+SYN-112,-3,Demo year -3,13,204.4,15.73,11.43,True
+SYN-112,-2,Demo year -2,16,216.4,13.52,9.59,True
+SYN-112,-1,Demo year -1,13,203.2,15.63,11.47,True
+SYN-112,0,Current demo,13,203.0,15.62,8.26,True
+SYN-049,-3,Demo year -3,17,214.7,12.63,15.41,True
+SYN-049,-2,Demo year -2,13,228.6,17.58,18.19,True
+SYN-049,-1,Demo year -1,15,239.8,15.99,15.02,True
+SYN-049,0,Current demo,14,225.8,16.13,16.84,True
+SYN-009,-3,Demo year -3,14,297.5,21.25,35.23,True
+SYN-009,-2,Demo year -2,14,299.6,21.4,35.89,True
+SYN-009,-1,Demo year -1,16,307.2,19.2,36.05,True
+SYN-009,0,Current demo,17,347.7,20.45,34.66,True
+SYN-171,-3,Demo year -3,17,175.6,10.33,8.32,True
+SYN-171,-2,Demo year -2,14,166.7,11.91,8.93,True
+SYN-171,-1,Demo year -1,13,195.2,15.02,7.5,True
+SYN-171,0,Current demo,16,198.3,12.4,8.26,True
+SYN-115,-3,Demo year -3,16,228.9,14.31,7.67,True
+SYN-115,-2,Demo year -2,13,236.8,18.22,8.14,True
+SYN-115,-1,Demo year -1,15,210.3,14.02,7.13,True
+SYN-115,0,Current demo,16,203.0,12.69,8.7,True
+SYN-114,-3,Demo year -3,16,224.0,14.0,6.74,True
+SYN-114,-2,Demo year -2,13,212.3,16.33,7.51,True
+SYN-114,-1,Demo year -1,13,215.3,16.56,9.91,True
+SYN-114,0,Current demo,16,225.4,14.08,9.09,True
+SYN-117,-3,Demo year -3,13,209.0,16.08,6.96,True
+SYN-117,-2,Demo year -2,17,214.2,12.6,11.15,True
+SYN-117,-1,Demo year -1,17,219.7,12.92,8.88,True
+SYN-117,0,Current demo,15,197.5,13.17,9.44,True
+SYN-173,-3,Demo year -3,13,197.5,15.19,5.6,True
+SYN-173,-2,Demo year -2,16,204.8,12.8,5.22,True
+SYN-173,-1,Demo year -1,14,180.5,12.9,7.42,True
+SYN-173,0,Current demo,14,197.3,14.09,8.57,True
+SYN-172,-3,Demo year -3,17,166.7,9.81,7.08,True
+SYN-172,-2,Demo year -2,14,178.8,12.77,8.94,True
+SYN-172,-1,Demo year -1,17,200.9,11.82,8.03,True
+SYN-172,0,Current demo,15,180.2,12.02,7.22,True
+SYN-052,-3,Demo year -3,13,194.5,14.96,16.54,True
+SYN-052,-2,Demo year -2,16,187.4,11.71,18.0,True
+SYN-052,-1,Demo year -1,14,223.7,15.98,16.29,True
+SYN-052,0,Current demo,13,199.5,15.35,15.8,True
+SYN-011,-3,Demo year -3,13,263.6,20.28,37.48,True
+SYN-011,-2,Demo year -2,15,278.0,18.54,36.38,True
+SYN-011,-1,Demo year -1,14,305.7,21.83,34.13,True
+SYN-011,0,Current demo,13,324.6,24.97,35.07,True
+SYN-051,-3,Demo year -3,13,216.0,16.61,17.99,True
+SYN-051,-2,Demo year -2,13,225.8,17.37,19.16,True
+SYN-051,-1,Demo year -1,17,217.0,12.76,16.94,True
+SYN-051,0,Current demo,14,228.1,16.29,17.55,True
+SYN-174,-3,Demo year -3,16,173.5,10.85,5.39,True
+SYN-174,-2,Demo year -2,16,162.9,10.18,6.84,True
+SYN-174,-1,Demo year -1,13,196.5,15.12,6.71,True
+SYN-174,0,Current demo,13,183.8,14.14,7.06,True
+SYN-053,-3,Demo year -3,17,240.6,14.15,16.07,True
+SYN-053,-2,Demo year -2,13,223.9,17.22,16.14,True
+SYN-053,-1,Demo year -1,13,218.2,16.79,15.34,True
+SYN-053,0,Current demo,15,212.8,14.19,18.73,True
+SYN-116,-3,Demo year -3,16,227.6,14.23,9.81,True
+SYN-116,-2,Demo year -2,16,234.6,14.66,8.79,True
+SYN-116,-1,Demo year -1,17,243.2,14.3,10.55,True
+SYN-116,0,Current demo,17,225.0,13.24,11.1,True
+SYN-054,-3,Demo year -3,14,230.6,16.47,18.05,True
+SYN-054,-2,Demo year -2,14,235.2,16.8,15.4,True
+SYN-054,-1,Demo year -1,16,213.8,13.36,15.82,True
+SYN-054,0,Current demo,13,209.1,16.08,17.79,True
+SYN-055,-3,Demo year -3,13,189.5,14.58,16.58,True
+SYN-055,-2,Demo year -2,17,193.0,11.36,17.88,True
+SYN-055,-1,Demo year -1,17,202.0,11.88,17.58,True
+SYN-055,0,Current demo,17,225.3,13.25,16.07,True
+SYN-175,-3,Demo year -3,15,192.9,12.86,8.24,True
+SYN-175,-2,Demo year -2,17,181.8,10.7,4.35,True
+SYN-175,-1,Demo year -1,16,192.0,12.0,6.31,True
+SYN-175,0,Current demo,15,157.9,10.53,4.79,True
+SYN-118,-3,Demo year -3,15,215.3,14.35,7.79,True
+SYN-118,-2,Demo year -2,13,193.9,14.91,7.61,True
+SYN-118,-1,Demo year -1,16,189.8,11.86,10.69,True
+SYN-118,0,Current demo,14,210.4,15.03,8.71,True
+SYN-056,-3,Demo year -3,14,217.8,15.55,16.39,True
+SYN-056,-2,Demo year -2,16,224.2,14.01,15.54,True
+SYN-056,-1,Demo year -1,15,200.8,13.39,17.02,True
+SYN-056,0,Current demo,15,203.8,13.59,16.64,True
+SYN-013,-3,Demo year -3,15,286.7,19.11,36.77,True
+SYN-013,-2,Demo year -2,16,299.5,18.72,34.7,True
+SYN-013,-1,Demo year -1,17,267.1,15.71,36.56,True
+SYN-013,0,Current demo,15,262.4,17.49,35.71,True
+SYN-119,-3,Demo year -3,13,206.6,15.89,6.83,True
+SYN-119,-2,Demo year -2,16,192.4,12.02,9.45,True
+SYN-119,-1,Demo year -1,15,210.8,14.05,9.34,True
+SYN-119,0,Current demo,14,232.4,16.6,10.63,True
+SYN-012,-3,Demo year -3,17,307.6,18.09,37.78,True
+SYN-012,-2,Demo year -2,14,289.6,20.68,35.56,True
+SYN-012,-1,Demo year -1,17,288.6,16.98,35.96,True
+SYN-012,0,Current demo,13,285.1,21.93,34.03,True
+SYN-121,-3,Demo year -3,15,182.5,12.16,9.44,True
+SYN-121,-2,Demo year -2,13,213.4,16.42,11.31,True
+SYN-121,-1,Demo year -1,15,206.4,13.76,6.44,True
+SYN-121,0,Current demo,15,198.2,13.22,9.32,True
+SYN-120,-3,Demo year -3,16,221.5,13.85,10.86,True
+SYN-120,-2,Demo year -2,14,226.3,16.16,11.06,True
+SYN-120,-1,Demo year -1,15,234.4,15.63,10.26,True
+SYN-120,0,Current demo,13,207.1,15.93,10.46,True
+SYN-123,-3,Demo year -3,16,168.0,10.5,9.79,True
+SYN-123,-2,Demo year -2,17,202.6,11.92,7.7,True
+SYN-123,-1,Demo year -1,15,196.9,13.13,10.73,True
+SYN-123,0,Current demo,13,192.4,14.8,9.08,True
+SYN-124,-3,Demo year -3,15,202.8,13.52,11.2,True
+SYN-124,-2,Demo year -2,14,211.2,15.09,7.79,True
+SYN-124,-1,Demo year -1,16,184.3,11.52,9.69,True
+SYN-124,0,Current demo,13,219.9,16.91,10.41,True
+SYN-014,-3,Demo year -3,15,263.5,17.56,33.64,True
+SYN-014,-2,Demo year -2,13,260.0,20.0,34.82,True
+SYN-014,-1,Demo year -1,17,255.5,15.03,35.75,True
+SYN-014,0,Current demo,15,262.3,17.48,36.86,True
+SYN-058,-3,Demo year -3,15,196.0,13.07,15.72,True
+SYN-058,-2,Demo year -2,16,179.4,11.21,16.32,True
+SYN-058,-1,Demo year -1,13,211.7,16.29,17.53,True
+SYN-058,0,Current demo,16,235.7,14.73,18.73,True
+SYN-057,-3,Demo year -3,15,182.2,12.15,14.67,True
+SYN-057,-2,Demo year -2,16,207.3,12.96,14.5,True
+SYN-057,-1,Demo year -1,15,194.3,12.95,16.47,True
+SYN-057,0,Current demo,15,181.4,12.09,14.36,True
+SYN-060,-3,Demo year -3,13,211.6,16.28,16.08,True
+SYN-060,-2,Demo year -2,17,208.0,12.24,18.42,True
+SYN-060,-1,Demo year -1,16,205.9,12.87,18.07,True
+SYN-060,0,Current demo,15,200.4,13.36,17.65,True
+SYN-122,-3,Demo year -3,13,227.6,17.51,8.69,True
+SYN-122,-2,Demo year -2,14,197.9,14.13,9.13,True
+SYN-122,-1,Demo year -1,15,190.5,12.7,9.58,True
+SYN-122,0,Current demo,16,211.5,13.22,6.34,True
+SYN-176,-3,Demo year -3,13,134.5,10.34,4.7,True
+SYN-176,-2,Demo year -2,14,140.8,10.06,5.28,True
+SYN-176,-1,Demo year -1,15,146.4,9.76,6.41,True
+SYN-176,0,Current demo,15,159.5,10.63,7.17,True
+SYN-125,-3,Demo year -3,17,178.5,10.5,9.92,True
+SYN-125,-2,Demo year -2,13,182.6,14.04,8.6,True
+SYN-125,-1,Demo year -1,17,178.1,10.48,6.31,True
+SYN-125,0,Current demo,17,193.0,11.36,6.32,True
+SYN-059,-3,Demo year -3,17,198.6,11.68,14.34,True
+SYN-059,-2,Demo year -2,17,212.7,12.51,18.59,True
+SYN-059,-1,Demo year -1,13,210.2,16.17,16.4,True
+SYN-059,0,Current demo,15,210.3,14.02,16.09,True
+SYN-177,-3,Demo year -3,17,174.6,10.27,9.1,True
+SYN-177,-2,Demo year -2,15,146.8,9.79,7.13,True
+SYN-177,-1,Demo year -1,14,154.5,11.04,4.49,True
+SYN-177,0,Current demo,14,142.8,10.2,5.44,True
+SYN-015,-3,Demo year -3,15,261.6,17.44,37.03,True
+SYN-015,-2,Demo year -2,17,267.6,15.74,35.01,True
+SYN-015,-1,Demo year -1,16,276.4,17.27,34.46,True
+SYN-015,0,Current demo,13,263.7,20.29,36.53,True
+SYN-178,-3,Demo year -3,16,151.5,9.47,5.44,True
+SYN-178,-2,Demo year -2,13,149.1,11.47,6.17,True
+SYN-178,-1,Demo year -1,14,178.1,12.72,7.22,True
+SYN-178,0,Current demo,17,150.8,8.87,6.44,True
+SYN-061,-3,Demo year -3,17,198.3,11.67,16.53,True
+SYN-061,-2,Demo year -2,13,189.2,14.56,15.16,True
+SYN-061,-1,Demo year -1,13,211.9,16.3,16.29,True
+SYN-061,0,Current demo,13,182.3,14.02,14.55,True
+SYN-128,-3,Demo year -3,13,155.7,11.97,7.15,True
+SYN-128,-2,Demo year -2,17,179.0,10.53,7.42,True
+SYN-128,-1,Demo year -1,14,188.7,13.48,7.84,True
+SYN-128,0,Current demo,15,176.3,11.75,7.96,True
+SYN-062,-3,Demo year -3,15,204.1,13.61,15.24,True
+SYN-062,-2,Demo year -2,17,178.8,10.52,15.17,True
+SYN-062,-1,Demo year -1,13,176.9,13.61,14.37,True
+SYN-062,0,Current demo,17,217.5,12.79,18.22,True
+SYN-126,-3,Demo year -3,14,162.0,11.57,10.01,True
+SYN-126,-2,Demo year -2,14,160.5,11.46,7.24,True
+SYN-126,-1,Demo year -1,16,195.0,12.19,9.05,True
+SYN-126,0,Current demo,13,192.2,14.79,6.51,True
+SYN-127,-3,Demo year -3,15,166.1,11.07,8.71,True
+SYN-127,-2,Demo year -2,15,166.0,11.07,10.69,True
+SYN-127,-1,Demo year -1,16,176.3,11.02,10.85,True
+SYN-127,0,Current demo,15,174.7,11.65,8.75,True
+SYN-179,-3,Demo year -3,14,130.9,9.35,7.8,True
+SYN-179,-2,Demo year -2,14,155.3,11.09,5.38,True
+SYN-179,-1,Demo year -1,16,136.0,8.5,5.94,True
+SYN-179,0,Current demo,17,151.0,8.88,8.22,True
+SYN-063,-3,Demo year -3,17,184.6,10.86,14.9,True
+SYN-063,-2,Demo year -2,16,205.5,12.84,16.89,True
+SYN-063,-1,Demo year -1,17,188.1,11.06,17.62,True
+SYN-063,0,Current demo,17,195.8,11.51,14.53,True
+SYN-181,-3,Demo year -3,16,169.1,10.57,4.95,True
+SYN-181,-2,Demo year -2,15,174.3,11.62,7.84,True
+SYN-181,-1,Demo year -1,14,153.2,10.94,8.77,True
+SYN-181,0,Current demo,14,137.2,9.8,8.3,True
+SYN-065,-3,Demo year -3,16,204.0,12.75,15.79,True
+SYN-065,-2,Demo year -2,14,198.3,14.16,16.22,True
+SYN-065,-1,Demo year -1,13,200.7,15.44,17.7,True
+SYN-065,0,Current demo,16,200.1,12.51,15.35,True
+SYN-180,-3,Demo year -3,14,158.0,11.29,6.63,True
+SYN-180,-2,Demo year -2,17,168.0,9.89,8.5,True
+SYN-180,-1,Demo year -1,17,176.8,10.4,6.76,True
+SYN-180,0,Current demo,15,182.4,12.16,5.32,True
+SYN-064,-3,Demo year -3,14,180.8,12.92,18.57,True
+SYN-064,-2,Demo year -2,14,178.8,12.77,14.22,True
+SYN-064,-1,Demo year -1,16,180.1,11.25,15.54,True
+SYN-064,0,Current demo,14,191.4,13.67,16.17,True
+SYN-016,-3,Demo year -3,13,223.2,17.17,35.66,True
+SYN-016,-2,Demo year -2,14,250.4,17.88,37.45,True
+SYN-016,-1,Demo year -1,16,267.3,16.7,33.56,True
+SYN-016,0,Current demo,17,256.8,15.11,33.74,True
+SYN-066,-3,Demo year -3,13,163.2,12.56,14.05,True
+SYN-066,-2,Demo year -2,16,184.8,11.55,16.77,True
+SYN-066,-1,Demo year -1,17,173.9,10.23,16.39,True
+SYN-066,0,Current demo,15,185.0,12.33,17.6,True
+SYN-129,-3,Demo year -3,16,155.3,9.7,10.71,True
+SYN-129,-2,Demo year -2,16,161.1,10.07,9.44,True
+SYN-129,-1,Demo year -1,16,185.4,11.59,10.95,True
+SYN-129,0,Current demo,14,168.7,12.05,6.22,True
+SYN-067,-3,Demo year -3,17,144.0,8.47,17.07,True
+SYN-067,-2,Demo year -2,13,153.0,11.77,18.04,True
+SYN-067,-1,Demo year -1,16,165.7,10.36,17.71,True
+SYN-067,0,Current demo,15,168.4,11.22,16.0,True
+SYN-017,-3,Demo year -3,17,218.2,12.84,33.96,True
+SYN-017,-2,Demo year -2,13,246.2,18.94,36.25,True
+SYN-017,-1,Demo year -1,17,272.9,16.05,36.07,True
+SYN-017,0,Current demo,16,272.2,17.01,36.85,True
+SYN-130,-3,Demo year -3,15,186.1,12.41,6.82,True
+SYN-130,-2,Demo year -2,13,158.9,12.22,7.2,True
+SYN-130,-1,Demo year -1,17,201.2,11.83,6.89,True
+SYN-130,0,Current demo,16,204.4,12.77,10.18,True
+SYN-131,-3,Demo year -3,16,169.1,10.57,6.36,True
+SYN-131,-2,Demo year -2,17,187.3,11.02,10.6,True
+SYN-131,-1,Demo year -1,13,193.4,14.88,8.9,True
+SYN-131,0,Current demo,16,166.6,10.41,10.45,True
+SYN-182,-3,Demo year -3,15,159.4,10.62,5.0,True
+SYN-182,-2,Demo year -2,15,122.9,8.19,4.53,True
+SYN-182,-1,Demo year -1,14,138.5,9.89,5.57,True
+SYN-182,0,Current demo,15,121.5,8.1,4.3,True
+SYN-132,-3,Demo year -3,16,132.4,8.27,7.26,True
+SYN-132,-2,Demo year -2,13,144.0,11.08,7.32,True
+SYN-132,-1,Demo year -1,13,180.3,13.87,8.84,True
+SYN-132,0,Current demo,16,190.1,11.88,6.87,True
+SYN-184,-3,Demo year -3,13,134.9,10.38,4.66,True
+SYN-184,-2,Demo year -2,16,120.7,7.54,6.88,True
+SYN-184,-1,Demo year -1,17,151.4,8.9,4.44,True
+SYN-184,0,Current demo,14,127.9,9.13,8.85,True
+SYN-133,-3,Demo year -3,15,169.1,11.28,8.71,True
+SYN-133,-2,Demo year -2,15,175.2,11.68,7.1,True
+SYN-133,-1,Demo year -1,13,165.9,12.76,7.45,True
+SYN-133,0,Current demo,15,186.8,12.45,9.93,True
+SYN-183,-3,Demo year -3,15,117.5,7.83,6.79,True
+SYN-183,-2,Demo year -2,17,112.7,6.63,4.63,True
+SYN-183,-1,Demo year -1,15,134.6,8.97,7.15,True
+SYN-183,0,Current demo,14,125.9,8.99,7.43,True
+SYN-068,-3,Demo year -3,16,162.4,10.15,15.64,True
+SYN-068,-2,Demo year -2,14,180.0,12.86,18.37,True
+SYN-068,-1,Demo year -1,16,158.5,9.9,16.16,True
+SYN-068,0,Current demo,16,180.6,11.29,13.96,True
+SYN-069,-3,Demo year -3,14,135.6,9.68,17.61,True
+SYN-069,-2,Demo year -2,17,138.3,8.13,14.1,True
+SYN-069,-1,Demo year -1,15,148.5,9.9,17.38,True
+SYN-069,0,Current demo,14,166.7,11.91,13.7,True
+SYN-135,-3,Demo year -3,14,153.4,10.96,6.32,True
+SYN-135,-2,Demo year -2,16,171.1,10.7,8.95,True
+SYN-135,-1,Demo year -1,15,185.7,12.38,7.78,True
+SYN-135,0,Current demo,17,197.4,11.61,8.56,True
+SYN-134,-3,Demo year -3,15,165.4,11.02,9.52,True
+SYN-134,-2,Demo year -2,15,157.4,10.49,6.11,True
+SYN-134,-1,Demo year -1,16,180.1,11.25,9.52,True
+SYN-134,0,Current demo,17,178.7,10.51,6.06,True
+SYN-019,-3,Demo year -3,13,209.6,16.13,33.72,True
+SYN-019,-2,Demo year -2,15,232.3,15.48,37.63,True
+SYN-019,-1,Demo year -1,13,217.5,16.73,38.29,True
+SYN-019,0,Current demo,16,241.4,15.09,34.07,True
+SYN-018,-3,Demo year -3,14,235.8,16.84,33.95,True
+SYN-018,-2,Demo year -2,13,262.7,20.21,34.0,True
+SYN-018,-1,Demo year -1,15,255.4,17.02,33.82,True
+SYN-018,0,Current demo,17,234.7,13.81,35.89,True
+SYN-186,-3,Demo year -3,16,131.8,8.24,5.28,True
+SYN-186,-2,Demo year -2,13,106.7,8.21,5.79,True
+SYN-186,-1,Demo year -1,16,111.8,6.99,8.22,True
+SYN-186,0,Current demo,15,102.1,6.81,8.42,True
+SYN-020,-3,Demo year -3,17,227.2,13.36,35.11,True
+SYN-020,-2,Demo year -2,14,247.7,17.69,38.37,True
+SYN-020,-1,Demo year -1,16,253.2,15.82,35.21,True
+SYN-020,0,Current demo,15,254.8,16.99,35.92,True
+SYN-070,-3,Demo year -3,16,170.8,10.67,15.16,True
+SYN-070,-2,Demo year -2,16,155.1,9.69,16.25,True
+SYN-070,-1,Demo year -1,14,159.1,11.36,14.06,True
+SYN-070,0,Current demo,13,157.8,12.14,17.85,True
+SYN-185,-3,Demo year -3,17,103.6,6.09,4.17,True
+SYN-185,-2,Demo year -2,13,136.7,10.52,8.78,True
+SYN-185,-1,Demo year -1,15,142.7,9.52,7.44,True
+SYN-185,0,Current demo,15,110.3,7.35,5.82,True
+SYN-071,-3,Demo year -3,14,173.7,12.41,17.86,True
+SYN-071,-2,Demo year -2,14,130.8,9.35,15.41,True
+SYN-071,-1,Demo year -1,17,160.9,9.46,15.05,True
+SYN-071,0,Current demo,14,151.5,10.82,15.87,True
+SYN-136,-3,Demo year -3,15,125.5,8.36,6.39,True
+SYN-136,-2,Demo year -2,16,169.6,10.6,5.72,True
+SYN-136,-1,Demo year -1,13,180.7,13.9,8.22,True
+SYN-136,0,Current demo,17,184.7,10.87,8.47,True
+SYN-072,-3,Demo year -3,13,122.2,9.4,17.48,True
+SYN-072,-2,Demo year -2,15,139.2,9.28,15.87,True
+SYN-072,-1,Demo year -1,15,136.5,9.1,18.14,True
+SYN-072,0,Current demo,13,138.8,10.68,16.79,True
+SYN-137,-3,Demo year -3,16,172.3,10.77,7.54,True
+SYN-137,-2,Demo year -2,13,156.1,12.01,9.92,True
+SYN-137,-1,Demo year -1,15,141.8,9.45,9.11,True
+SYN-137,0,Current demo,15,146.2,9.75,9.51,True
+SYN-139,-3,Demo year -3,17,141.0,8.29,10.28,True
+SYN-139,-2,Demo year -2,15,155.9,10.39,9.2,True
+SYN-139,-1,Demo year -1,15,149.2,9.95,9.92,True
+SYN-139,0,Current demo,14,148.8,10.63,7.52,True
+SYN-140,-3,Demo year -3,13,147.7,11.36,9.3,True
+SYN-140,-2,Demo year -2,15,172.9,11.53,6.1,True
+SYN-140,-1,Demo year -1,17,163.5,9.62,9.52,True
+SYN-140,0,Current demo,16,168.1,10.5,9.15,True
+SYN-138,-3,Demo year -3,13,135.4,10.41,10.12,True
+SYN-138,-2,Demo year -2,17,147.8,8.7,10.1,True
+SYN-138,-1,Demo year -1,16,158.1,9.88,5.72,True
+SYN-138,0,Current demo,13,167.2,12.86,6.92,True
+SYN-187,-3,Demo year -3,14,139.7,9.98,7.48,True
+SYN-187,-2,Demo year -2,16,140.6,8.79,6.35,True
+SYN-187,-1,Demo year -1,15,107.4,7.16,6.31,True
+SYN-187,0,Current demo,17,122.5,7.2,4.02,True
+SYN-075,-3,Demo year -3,15,113.9,7.59,17.98,True
+SYN-075,-2,Demo year -2,15,136.5,9.1,16.4,True
+SYN-075,-1,Demo year -1,14,149.2,10.66,15.8,True
+SYN-075,0,Current demo,15,150.0,10.0,17.53,True
+SYN-141,-3,Demo year -3,14,144.9,10.35,10.21,True
+SYN-141,-2,Demo year -2,13,160.0,12.31,6.67,True
+SYN-141,-1,Demo year -1,17,140.6,8.27,7.31,True
+SYN-141,0,Current demo,16,161.2,10.07,8.71,True
+SYN-074,-3,Demo year -3,13,152.5,11.73,17.52,True
+SYN-074,-2,Demo year -2,15,152.7,10.18,17.24,True
+SYN-074,-1,Demo year -1,13,131.7,10.13,16.64,True
+SYN-074,0,Current demo,15,140.6,9.37,17.08,True
+SYN-073,-3,Demo year -3,13,130.7,10.05,15.19,True
+SYN-073,-2,Demo year -2,15,126.1,8.41,15.62,True
+SYN-073,-1,Demo year -1,14,142.7,10.19,16.43,True
+SYN-073,0,Current demo,15,131.1,8.74,16.61,True
+SYN-021,-3,Demo year -3,13,236.2,18.17,35.29,True
+SYN-021,-2,Demo year -2,17,211.9,12.46,35.92,True
+SYN-021,-1,Demo year -1,16,204.6,12.78,37.62,True
+SYN-021,0,Current demo,13,207.7,15.98,36.91,True
+SYN-143,-3,Demo year -3,16,144.1,9.0,9.84,True
+SYN-143,-2,Demo year -2,15,140.9,9.4,10.12,True
+SYN-143,-1,Demo year -1,14,154.3,11.02,6.87,True
+SYN-143,0,Current demo,14,157.1,11.22,6.36,True
+SYN-142,-3,Demo year -3,14,138.7,9.91,10.44,True
+SYN-142,-2,Demo year -2,13,142.7,10.98,9.07,True
+SYN-142,-1,Demo year -1,13,154.7,11.9,8.88,True
+SYN-142,0,Current demo,17,161.3,9.49,6.53,True
+SYN-077,-3,Demo year -3,17,153.9,9.06,13.56,True
+SYN-077,-2,Demo year -2,14,134.7,9.62,13.74,True
+SYN-077,-1,Demo year -1,17,155.9,9.17,16.07,True
+SYN-077,0,Current demo,15,150.9,10.06,14.36,True
+SYN-189,-3,Demo year -3,14,85.0,6.07,3.88,True
+SYN-189,-2,Demo year -2,13,92.0,7.08,8.14,True
+SYN-189,-1,Demo year -1,13,90.7,6.97,6.57,True
+SYN-189,0,Current demo,14,132.6,9.47,4.33,True
+SYN-145,-3,Demo year -3,13,130.0,10.0,9.6,True
+SYN-145,-2,Demo year -2,15,154.7,10.31,9.93,True
+SYN-145,-1,Demo year -1,13,164.8,12.68,5.52,True
+SYN-145,0,Current demo,13,163.2,12.56,9.32,True
+SYN-188,-3,Demo year -3,13,124.2,9.55,5.05,True
+SYN-188,-2,Demo year -2,16,133.2,8.32,5.33,True
+SYN-188,-1,Demo year -1,13,126.2,9.71,5.59,True
+SYN-188,0,Current demo,17,112.7,6.63,4.44,True
+SYN-144,-3,Demo year -3,17,129.5,7.62,6.88,True
+SYN-144,-2,Demo year -2,16,148.2,9.26,5.42,True
+SYN-144,-1,Demo year -1,16,149.1,9.32,8.28,True
+SYN-144,0,Current demo,14,164.2,11.73,9.62,True
+SYN-022,-3,Demo year -3,14,215.8,15.41,33.6,True
+SYN-022,-2,Demo year -2,16,219.2,13.7,34.01,True
+SYN-022,-1,Demo year -1,14,239.0,17.07,33.61,True
+SYN-022,0,Current demo,16,229.9,14.37,37.03,True
+SYN-191,-3,Demo year -3,17,107.4,6.32,4.81,True
+SYN-191,-2,Demo year -2,17,91.7,5.39,7.35,True
+SYN-191,-1,Demo year -1,14,105.5,7.54,3.7,True
+SYN-191,0,Current demo,16,107.7,6.73,5.18,True
+SYN-076,-3,Demo year -3,14,141.9,10.14,17.94,True
+SYN-076,-2,Demo year -2,14,159.9,11.42,17.2,True
+SYN-076,-1,Demo year -1,16,128.6,8.04,17.71,True
+SYN-076,0,Current demo,14,153.7,10.98,16.74,True
+SYN-023,-3,Demo year -3,13,194.6,14.97,36.58,True
+SYN-023,-2,Demo year -2,15,218.4,14.56,34.0,True
+SYN-023,-1,Demo year -1,15,212.9,14.19,34.55,True
+SYN-023,0,Current demo,17,210.9,12.41,36.73,True
+SYN-190,-3,Demo year -3,15,101.3,6.75,3.92,True
+SYN-190,-2,Demo year -2,13,100.9,7.76,5.31,True
+SYN-190,-1,Demo year -1,14,98.8,7.06,6.75,True
+SYN-190,0,Current demo,14,130.6,9.33,6.0,True
+SYN-078,-3,Demo year -3,13,136.6,10.51,13.98,True
+SYN-078,-2,Demo year -2,15,138.5,9.23,14.81,True
+SYN-078,-1,Demo year -1,13,145.3,11.18,16.77,True
+SYN-078,0,Current demo,17,146.0,8.59,14.18,True
+SYN-146,-3,Demo year -3,13,138.4,10.65,8.49,True
+SYN-146,-2,Demo year -2,15,144.0,9.6,5.5,True
+SYN-146,-1,Demo year -1,16,128.4,8.03,7.29,True
+SYN-146,0,Current demo,14,130.9,9.35,10.09,True
+SYN-024,-3,Demo year -3,16,193.8,12.11,35.2,True
+SYN-024,-2,Demo year -2,13,203.9,15.68,35.16,True
+SYN-024,-1,Demo year -1,14,214.7,15.33,36.99,True
+SYN-024,0,Current demo,14,203.1,14.51,34.78,True
+SYN-079,-3,Demo year -3,13,134.9,10.37,16.97,True
+SYN-079,-2,Demo year -2,15,117.2,7.81,14.21,True
+SYN-079,-1,Demo year -1,14,119.6,8.54,14.5,True
+SYN-079,0,Current demo,16,146.2,9.14,17.69,True
+SYN-081,-3,Demo year -3,17,120.5,7.09,16.52,True
+SYN-081,-2,Demo year -2,16,136.0,8.5,13.49,True
+SYN-081,-1,Demo year -1,14,138.6,9.9,15.78,True
+SYN-081,0,Current demo,13,124.0,9.54,16.62,True
+SYN-149,-3,Demo year -3,17,121.5,7.15,9.18,True
+SYN-149,-2,Demo year -2,17,140.0,8.23,8.45,True
+SYN-149,-1,Demo year -1,17,126.9,7.46,6.13,True
+SYN-149,0,Current demo,17,117.8,6.93,5.46,True
+SYN-147,-3,Demo year -3,17,145.1,8.53,6.97,True
+SYN-147,-2,Demo year -2,15,126.4,8.43,8.53,True
+SYN-147,-1,Demo year -1,15,147.5,9.83,6.56,True
+SYN-147,0,Current demo,16,150.2,9.39,5.52,True
+SYN-150,-3,Demo year -3,13,128.6,9.89,8.39,True
+SYN-150,-2,Demo year -2,16,150.4,9.4,8.97,True
+SYN-150,-1,Demo year -1,15,145.0,9.67,5.28,True
+SYN-150,0,Current demo,17,164.2,9.66,6.47,True
+SYN-192,-3,Demo year -3,16,134.5,8.4,4.67,True
+SYN-192,-2,Demo year -2,15,133.3,8.89,4.94,True
+SYN-192,-1,Demo year -1,17,122.2,7.19,6.06,True
+SYN-192,0,Current demo,15,99.0,6.6,5.47,True
+SYN-148,-3,Demo year -3,16,119.9,7.49,8.27,True
+SYN-148,-2,Demo year -2,14,161.1,11.51,5.97,True
+SYN-148,-1,Demo year -1,15,140.2,9.35,8.76,True
+SYN-148,0,Current demo,13,125.2,9.63,10.13,True
+SYN-080,-3,Demo year -3,13,139.7,10.74,14.85,True
+SYN-080,-2,Demo year -2,17,126.0,7.41,13.85,True
+SYN-080,-1,Demo year -1,15,136.9,9.13,13.47,True
+SYN-080,0,Current demo,13,137.4,10.57,16.65,True
+SYN-082,-3,Demo year -3,14,138.4,9.89,15.41,True
+SYN-082,-2,Demo year -2,14,107.6,7.69,13.21,True
+SYN-082,-1,Demo year -1,13,140.9,10.84,16.97,True
+SYN-082,0,Current demo,17,114.2,6.72,14.64,True
+SYN-152,-3,Demo year -3,15,119.0,7.94,6.55,True
+SYN-152,-2,Demo year -2,17,119.0,7.0,5.35,True
+SYN-152,-1,Demo year -1,14,129.9,9.28,7.82,True
+SYN-152,0,Current demo,13,116.5,8.96,5.31,True
+SYN-151,-3,Demo year -3,14,133.5,9.54,6.78,True
+SYN-151,-2,Demo year -2,14,152.0,10.86,7.99,True
+SYN-151,-1,Demo year -1,17,115.0,6.77,6.37,True
+SYN-151,0,Current demo,16,129.5,8.09,8.16,True
+SYN-083,-3,Demo year -3,14,130.7,9.33,13.03,True
+SYN-083,-2,Demo year -2,15,126.7,8.45,16.84,True
+SYN-083,-1,Demo year -1,17,127.4,7.5,16.45,True
+SYN-083,0,Current demo,17,126.9,7.46,15.88,True
+SYN-084,-3,Demo year -3,17,109.1,6.42,15.65,True
+SYN-084,-2,Demo year -2,16,135.4,8.46,16.69,True
+SYN-084,-1,Demo year -1,13,125.1,9.62,16.98,True
+SYN-084,0,Current demo,15,110.5,7.37,16.8,True
+SYN-154,-3,Demo year -3,16,106.0,6.63,5.94,True
+SYN-154,-2,Demo year -2,16,125.0,7.81,5.38,True
+SYN-154,-1,Demo year -1,17,103.2,6.07,6.95,True
+SYN-154,0,Current demo,13,135.3,10.4,6.72,True
+SYN-155,-3,Demo year -3,14,95.8,6.84,9.4,True
+SYN-155,-2,Demo year -2,15,109.3,7.29,5.71,True
+SYN-155,-1,Demo year -1,13,136.2,10.48,9.71,True
+SYN-155,0,Current demo,15,131.5,8.76,6.24,True
+SYN-153,-3,Demo year -3,17,128.8,7.58,8.05,True
+SYN-153,-2,Demo year -2,16,103.2,6.45,5.36,True
+SYN-153,-1,Demo year -1,15,116.6,7.77,5.36,True
+SYN-153,0,Current demo,17,129.9,7.64,6.15,True
+SYN-156,-3,Demo year -3,14,133.1,9.5,8.8,True
+SYN-156,-2,Demo year -2,15,114.1,7.61,9.53,True
+SYN-156,-1,Demo year -1,17,122.2,7.19,5.52,True
+SYN-156,0,Current demo,17,115.0,6.76,5.02,True

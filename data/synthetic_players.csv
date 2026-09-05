@@ -1,0 +1,193 @@
+player_id,player_name,club,position,model_rank,market_pick,value_delta,tier,projected_points,projection_low,projection_high,upside,floor,risk,profile,is_synthetic
+SYN-025,Demo Garnet RB-01,Demo Club Comet,RB,1,5.8,4.8,Cornerstone,315.9,222.7,374.3,3,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-085,Demo Solstice WR-01,Demo Club Comet,WR,2,1.0,-1.0,Cornerstone,292.1,210.3,346.1,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-086,Demo Axiom WR-02,Demo Club Ember,WR,3,7.6,4.6,Cornerstone,297.1,200.6,344.6,2,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-028,Demo Axiom RB-04,Demo Club Ion,RB,4,1.0,-3.0,Cornerstone,287.5,198.3,347.8,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-089,Demo Solstice WR-05,Demo Club Kestrel,WR,5,1.0,-4.0,Cornerstone,277.3,195.5,328.6,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-087,Demo Garnet WR-03,Demo Club Grove,WR,6,1.0,-5.0,Cornerstone,291.7,210.0,345.6,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-027,Demo Solstice RB-03,Demo Club Grove,RB,7,6.8,-0.2,Cornerstone,299.9,202.4,370.4,5,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-157,Demo Solstice TE-01,Demo Club Comet,TE,8,13.6,5.6,Cornerstone,247.0,174.1,292.7,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-026,Demo Mosaic RB-02,Demo Club Ember,RB,9,15.1,6.1,Cornerstone,300.3,216.2,355.8,3,5,2,Stable illustrative workload with a narrow demo range.,True
+SYN-088,Demo Mosaic WR-04,Demo Club Ion,WR,10,7.2,-2.8,Cornerstone,284.7,200.7,344.5,4,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-030,Demo Mosaic RB-06,Demo Club Aurora,RB,11,2.4,-8.6,Cornerstone,286.0,201.7,346.1,4,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-029,Demo Garnet RB-05,Demo Club Kestrel,RB,12,1.3,-10.7,Cornerstone,292.3,206.1,346.4,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-001,Demo Garnet QB-01,Demo Club Comet,QB,13,5.8,-7.2,Foundation,373.7,263.5,461.6,5,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-090,Demo Axiom WR-06,Demo Club Aurora,WR,14,1.0,-13.0,Foundation,285.1,201.0,344.9,4,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-092,Demo Mosaic WR-08,Demo Club Ember,WR,15,17.9,2.9,Foundation,279.0,196.7,337.6,4,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-091,Demo Garnet WR-07,Demo Club Comet,WR,16,6.4,-9.6,Foundation,285.3,205.4,352.3,5,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-093,Demo Solstice WR-09,Demo Club Grove,WR,17,36.9,19.9,Foundation,264.4,186.4,306.7,2,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-095,Demo Garnet WR-11,Demo Club Kestrel,WR,18,39.9,21.9,Foundation,261.0,184.0,309.3,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-158,Demo Axiom TE-02,Demo Club Ember,TE,19,18.8,-0.2,Foundation,251.5,181.1,298.0,3,5,2,Stable illustrative workload with a narrow demo range.,True
+SYN-032,Demo Axiom RB-08,Demo Club Ember,RB,20,36.6,16.6,Foundation,290.9,200.7,352.0,4,1,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-031,Demo Solstice RB-07,Demo Club Comet,RB,21,30.0,9.0,Foundation,288.5,207.7,341.9,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-034,Demo Mosaic RB-10,Demo Club Ion,RB,22,21.4,-0.6,Foundation,277.2,195.4,328.5,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-096,Demo Mosaic WR-12,Demo Club Aurora,WR,23,23.6,0.6,Foundation,257.3,177.5,304.8,3,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-033,Demo Garnet RB-09,Demo Club Grove,RB,24,48.8,24.8,Foundation,289.8,204.3,336.2,2,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-159,Demo Garnet TE-03,Demo Club Grove,TE,25,33.1,8.1,Foundation,239.5,168.9,277.9,2,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-094,Demo Axiom WR-10,Demo Club Ion,WR,26,30.9,4.9,Foundation,261.8,192.4,316.8,4,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-160,Demo Mosaic TE-04,Demo Club Ion,TE,27,25.8,-1.2,Foundation,237.9,164.1,281.9,3,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-002,Demo Mosaic QB-02,Demo Club Ember,QB,28,32.2,4.2,Foundation,367.3,258.9,435.2,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-035,Demo Solstice RB-11,Demo Club Kestrel,RB,29,17.0,-12.0,Foundation,264.6,194.5,313.5,3,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-098,Demo Axiom WR-14,Demo Club Ember,WR,30,38.1,8.1,Foundation,260.4,175.8,315.1,4,2,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-036,Demo Axiom RB-12,Demo Club Aurora,RB,31,26.3,-4.7,Foundation,277.4,195.6,328.7,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-097,Demo Solstice WR-13,Demo Club Comet,WR,32,38.3,6.3,Foundation,268.8,185.5,305.1,1,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-161,Demo Solstice TE-05,Demo Club Kestrel,TE,33,50.5,17.5,Foundation,234.2,158.1,271.7,2,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-003,Demo Solstice QB-03,Demo Club Grove,QB,34,35.8,1.8,Foundation,359.9,253.8,426.5,3,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-037,Demo Garnet RB-13,Demo Club Comet,RB,35,29.7,-5.3,Foundation,269.7,198.2,319.5,3,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-099,Demo Garnet WR-15,Demo Club Grove,WR,36,34.5,-1.5,Foundation,257.2,173.6,311.2,4,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-038,Demo Mosaic RB-14,Demo Club Ember,RB,37,49.8,12.8,Starter,252.7,182.0,299.5,3,3,2,Stable illustrative workload with a narrow demo range.,True
+SYN-164,Demo Mosaic TE-08,Demo Club Ember,TE,38,48.0,10.0,Starter,216.9,156.2,262.4,4,5,2,Stable illustrative workload with a narrow demo range.,True
+SYN-005,Demo Garnet QB-05,Demo Club Kestrel,QB,39,51.9,12.9,Starter,334.7,230.9,396.6,3,1,4,Balanced fictional projection across the demo inputs.,True
+SYN-100,Demo Mosaic WR-16,Demo Club Ion,WR,40,50.3,10.3,Starter,267.3,180.4,323.5,4,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-004,Demo Axiom QB-04,Demo Club Ion,QB,41,33.2,-7.8,Starter,347.1,244.7,411.3,3,4,3,Balanced fictional projection across the demo inputs.,True
+SYN-040,Demo Axiom RB-16,Demo Club Ion,RB,42,37.9,-4.1,Starter,261.5,188.3,309.8,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-162,Demo Axiom TE-06,Demo Club Aurora,TE,43,40.3,-2.7,Starter,214.4,144.7,259.5,4,2,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-101,Demo Solstice WR-17,Demo Club Kestrel,WR,44,43.5,-0.5,Starter,244.1,179.4,289.3,3,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-041,Demo Garnet RB-17,Demo Club Kestrel,RB,45,30.1,-14.9,Starter,254.6,175.7,289.0,1,3,4,Balanced fictional projection across the demo inputs.,True
+SYN-039,Demo Solstice RB-15,Demo Club Grove,RB,46,31.5,-14.5,Starter,257.1,177.4,311.1,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-102,Demo Axiom WR-18,Demo Club Aurora,WR,47,29.5,-17.5,Starter,257.4,189.2,317.9,5,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-165,Demo Solstice TE-09,Demo Club Grove,TE,48,34.6,-13.4,Starter,215.1,154.8,249.5,2,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-103,Demo Garnet WR-19,Demo Club Comet,WR,49,50.0,1.0,Starter,239.7,169.0,284.0,3,4,3,Balanced fictional projection across the demo inputs.,True
+SYN-163,Demo Garnet TE-07,Demo Club Comet,TE,50,72.3,22.3,Starter,218.9,154.3,264.8,4,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-166,Demo Axiom TE-10,Demo Club Ion,TE,51,58.6,7.6,Starter,217.4,146.8,252.2,2,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-042,Demo Mosaic RB-18,Demo Club Aurora,RB,52,52.5,0.5,Starter,248.9,175.4,301.1,4,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-006,Demo Mosaic QB-06,Demo Club Aurora,QB,53,45.6,-7.4,Starter,331.9,234.0,385.0,2,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-106,Demo Axiom WR-22,Demo Club Ion,WR,54,40.3,-13.7,Starter,244.4,176.0,283.5,2,3,2,Stable illustrative workload with a narrow demo range.,True
+SYN-105,Demo Solstice WR-21,Demo Club Grove,WR,55,71.8,16.8,Starter,237.2,174.4,281.1,3,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-104,Demo Mosaic WR-20,Demo Club Ember,WR,56,89.2,33.2,Starter,254.0,182.9,307.4,4,3,2,Stable illustrative workload with a narrow demo range.,True
+SYN-007,Demo Solstice QB-07,Demo Club Comet,QB,57,64.8,7.8,Starter,316.0,218.0,382.4,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-043,Demo Solstice RB-19,Demo Club Comet,RB,58,36.7,-21.3,Starter,244.7,172.5,283.8,2,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-167,Demo Garnet TE-11,Demo Club Kestrel,TE,59,51.6,-7.4,Starter,195.2,137.6,226.5,2,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-046,Demo Mosaic RB-22,Demo Club Ion,RB,60,65.2,5.2,Starter,226.6,156.4,274.2,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-044,Demo Axiom RB-20,Demo Club Ember,RB,61,62.2,1.2,Starter,237.5,163.9,281.5,3,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-109,Demo Solstice WR-25,Demo Club Comet,WR,62,76.1,14.1,Starter,226.6,159.7,268.5,3,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-168,Demo Mosaic TE-12,Demo Club Aurora,TE,63,61.3,-1.7,Starter,189.2,133.4,224.2,3,4,3,Balanced fictional projection across the demo inputs.,True
+SYN-045,Demo Garnet RB-21,Demo Club Grove,RB,64,44.1,-19.9,Starter,233.1,157.4,282.1,4,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-108,Demo Mosaic WR-24,Demo Club Aurora,WR,65,52.7,-12.3,Starter,236.9,167.0,280.7,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-107,Demo Garnet WR-23,Demo Club Kestrel,WR,66,57.1,-8.9,Starter,245.2,180.2,290.6,3,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-111,Demo Garnet WR-27,Demo Club Grove,WR,67,77.2,10.2,Starter,236.2,166.6,268.1,1,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-169,Demo Solstice TE-13,Demo Club Comet,TE,68,60.1,-7.9,Starter,203.3,143.3,235.9,2,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-170,Demo Axiom TE-14,Demo Club Ember,TE,69,77.7,8.7,Starter,183.1,123.6,212.4,2,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-008,Demo Axiom QB-08,Demo Club Ember,QB,70,69.9,-0.1,Starter,316.3,227.7,374.8,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-110,Demo Axiom WR-26,Demo Club Ember,WR,71,74.5,3.5,Starter,231.1,169.8,279.6,4,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-048,Demo Axiom RB-24,Demo Club Aurora,RB,72,85.5,13.5,Starter,240.5,173.2,273.0,1,5,2,Stable illustrative workload with a narrow demo range.,True
+SYN-047,Demo Solstice RB-23,Demo Club Kestrel,RB,73,73.8,0.8,Depth,226.5,163.1,262.7,2,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-113,Demo Solstice WR-29,Demo Club Kestrel,WR,74,62.4,-11.6,Depth,221.2,162.6,267.6,4,4,1,Stable illustrative workload with a narrow demo range.,True
+SYN-010,Demo Mosaic QB-10,Demo Club Ion,QB,75,59.9,-15.1,Depth,293.1,206.6,340.0,2,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-050,Demo Mosaic RB-26,Demo Club Ember,RB,76,75.8,-0.2,Depth,224.5,161.6,271.6,4,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-112,Demo Mosaic WR-28,Demo Club Ion,WR,77,83.0,6.0,Depth,216.3,149.2,256.3,3,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-049,Demo Garnet RB-25,Demo Club Comet,RB,78,71.3,-6.7,Depth,231.0,166.3,273.8,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-009,Demo Garnet QB-09,Demo Club Grove,QB,79,72.2,-6.8,Depth,317.0,223.5,391.5,5,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-171,Demo Garnet TE-15,Demo Club Grove,TE,80,84.6,4.6,Depth,186.5,128.7,221.0,3,3,4,Balanced fictional projection across the demo inputs.,True
+SYN-115,Demo Garnet WR-31,Demo Club Comet,WR,81,85.5,4.5,Depth,215.6,145.5,260.8,4,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-114,Demo Axiom WR-30,Demo Club Aurora,WR,82,67.6,-14.4,Depth,228.0,160.7,264.4,2,4,3,Balanced fictional projection across the demo inputs.,True
+SYN-117,Demo Solstice WR-33,Demo Club Grove,WR,83,74.3,-8.7,Depth,212.4,149.8,246.4,2,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-173,Demo Solstice TE-17,Demo Club Kestrel,TE,84,88.3,4.3,Depth,182.9,126.2,216.8,3,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-172,Demo Mosaic TE-16,Demo Club Ion,TE,85,86.8,1.8,Depth,193.7,139.5,234.4,4,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-052,Demo Axiom RB-28,Demo Club Ion,RB,86,76.0,-10.0,Depth,209.3,147.5,248.0,3,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-011,Demo Solstice QB-11,Demo Club Kestrel,QB,87,76.6,-10.4,Depth,305.6,215.4,362.1,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-051,Demo Solstice RB-27,Demo Club Grove,RB,88,84.0,-4.0,Depth,211.8,152.5,256.3,4,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-174,Demo Axiom TE-18,Demo Club Aurora,TE,89,87.4,-1.6,Depth,182.7,126.1,216.5,3,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-053,Demo Garnet RB-29,Demo Club Kestrel,RB,90,85.2,-4.8,Depth,220.4,152.1,261.2,3,3,4,Balanced fictional projection across the demo inputs.,True
+SYN-116,Demo Mosaic WR-32,Demo Club Ember,WR,91,103.5,12.5,Depth,223.4,157.5,264.7,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-054,Demo Mosaic RB-30,Demo Club Aurora,RB,92,87.4,-4.6,Depth,213.3,144.0,247.4,2,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-055,Demo Solstice RB-31,Demo Club Comet,RB,93,82.2,-10.8,Depth,206.5,142.5,244.7,3,1,4,Balanced fictional projection across the demo inputs.,True
+SYN-175,Demo Garnet TE-19,Demo Club Comet,TE,94,101.9,7.9,Depth,179.5,126.5,208.2,2,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-118,Demo Axiom WR-34,Demo Club Ion,WR,95,104.0,9.0,Depth,211.1,148.8,250.1,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-056,Demo Axiom RB-32,Demo Club Ember,RB,96,103.0,7.0,Depth,214.6,157.7,254.3,3,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-013,Demo Garnet QB-13,Demo Club Comet,QB,97,71.9,-25.1,Depth,282.2,199.0,334.4,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-119,Demo Garnet WR-35,Demo Club Kestrel,WR,98,102.0,4.0,Depth,218.7,154.2,264.7,4,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-012,Demo Axiom QB-12,Demo Club Aurora,QB,99,106.4,7.4,Depth,295.5,203.9,364.9,5,3,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-121,Demo Solstice WR-37,Demo Club Comet,WR,100,90.5,-9.5,Depth,201.4,139.0,243.7,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-120,Demo Mosaic WR-36,Demo Club Aurora,WR,101,92.5,-8.5,Depth,215.0,151.6,260.2,4,2,3,Balanced fictional projection across the demo inputs.,True
+SYN-123,Demo Garnet WR-39,Demo Club Grove,WR,102,87.4,-14.6,Depth,190.6,137.2,221.1,2,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-124,Demo Mosaic WR-40,Demo Club Ion,WR,103,99.1,-3.9,Depth,204.3,137.9,247.1,4,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-014,Demo Mosaic QB-14,Demo Club Ember,QB,104,113.5,9.5,Depth,265.0,178.9,314.0,3,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-058,Demo Mosaic RB-34,Demo Club Ion,RB,105,98.8,-6.2,Depth,205.3,144.7,248.4,4,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-057,Demo Garnet RB-33,Demo Club Grove,RB,106,109.5,3.5,Depth,197.9,139.6,234.6,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-060,Demo Axiom RB-36,Demo Club Aurora,RB,107,99.6,-7.4,Depth,192.3,129.8,227.9,3,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-122,Demo Axiom WR-38,Demo Club Ember,WR,108,108.3,0.3,Depth,202.2,145.6,234.6,2,3,2,Stable illustrative workload with a narrow demo range.,True
+SYN-176,Demo Mosaic TE-20,Demo Club Ember,TE,109,112.9,3.9,Depth,159.6,110.1,193.1,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-125,Demo Solstice WR-41,Demo Club Kestrel,WR,110,101.3,-8.7,Depth,198.7,140.0,245.3,5,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-059,Demo Solstice RB-35,Demo Club Kestrel,RB,111,113.2,2.2,Depth,200.9,138.6,243.1,4,1,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-177,Demo Solstice TE-21,Demo Club Grove,TE,112,124.8,12.8,Depth,163.7,115.4,194.0,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-015,Demo Solstice QB-15,Demo Club Grove,QB,113,121.6,8.6,Depth,270.5,194.8,320.6,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-178,Demo Axiom TE-22,Demo Club Ion,TE,114,109.6,-4.4,Depth,161.3,113.7,191.1,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-061,Demo Garnet RB-37,Demo Club Comet,RB,115,106.9,-8.1,Depth,197.6,136.4,234.2,3,3,4,Balanced fictional projection across the demo inputs.,True
+SYN-128,Demo Mosaic WR-44,Demo Club Ember,WR,116,103.3,-12.7,Depth,186.1,128.4,225.1,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-062,Demo Mosaic RB-38,Demo Club Ember,RB,117,116.6,-0.4,Depth,193.8,133.7,234.5,4,1,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-126,Demo Axiom WR-42,Demo Club Aurora,WR,118,105.9,-12.1,Depth,186.2,134.1,220.7,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-127,Demo Garnet WR-43,Demo Club Comet,WR,119,111.6,-7.4,Depth,184.2,127.1,222.9,4,3,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-179,Demo Garnet TE-23,Demo Club Kestrel,TE,120,132.1,12.1,Depth,152.6,103.0,177.0,2,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-063,Demo Solstice RB-39,Demo Club Grove,RB,121,108.4,-12.6,Development,188.9,136.0,223.8,3,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-181,Demo Solstice TE-25,Demo Club Comet,TE,122,130.5,8.5,Development,156.0,110.0,184.9,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-065,Demo Garnet RB-41,Demo Club Kestrel,RB,123,108.3,-14.7,Development,182.8,128.9,216.7,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-180,Demo Mosaic TE-24,Demo Club Aurora,TE,124,146.1,22.1,Development,161.4,113.8,195.3,4,4,3,Balanced fictional projection across the demo inputs.,True
+SYN-064,Demo Axiom RB-40,Demo Club Ion,RB,125,111.6,-13.4,Development,169.9,119.8,201.3,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-016,Demo Axiom QB-16,Demo Club Ion,QB,126,129.4,3.4,Development,258.3,174.3,299.6,2,1,5,Balanced fictional projection across the demo inputs.,True
+SYN-066,Demo Mosaic RB-42,Demo Club Aurora,RB,127,110.1,-16.9,Development,175.9,126.7,208.4,3,3,2,Stable illustrative workload with a narrow demo range.,True
+SYN-129,Demo Solstice WR-45,Demo Club Grove,WR,128,128.7,0.7,Development,175.8,121.3,212.7,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-067,Demo Solstice RB-43,Demo Club Comet,RB,129,110.6,-18.4,Development,161.2,111.2,191.0,3,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-017,Demo Garnet QB-17,Demo Club Kestrel,QB,130,125.7,-4.3,Development,260.9,180.0,309.1,3,1,4,Balanced fictional projection across the demo inputs.,True
+SYN-130,Demo Axiom WR-46,Demo Club Ion,WR,131,129.2,-1.8,Development,188.0,129.7,222.7,3,2,4,Balanced fictional projection across the demo inputs.,True
+SYN-131,Demo Garnet WR-47,Demo Club Kestrel,WR,132,130.2,-1.8,Development,174.8,123.2,202.8,2,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-182,Demo Axiom TE-26,Demo Club Ember,TE,133,133.0,0.0,Development,141.8,104.2,168.0,3,4,1,Stable illustrative workload with a narrow demo range.,True
+SYN-132,Demo Mosaic WR-48,Demo Club Aurora,WR,134,131.1,-2.9,Development,167.8,118.3,198.8,3,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-184,Demo Mosaic TE-28,Demo Club Ion,TE,135,124.2,-10.8,Development,139.5,96.3,165.3,3,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-133,Demo Solstice WR-49,Demo Club Comet,WR,136,133.4,-2.6,Development,165.8,114.4,200.7,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-183,Demo Garnet TE-27,Demo Club Grove,TE,137,131.5,-5.5,Development,129.2,89.1,156.3,4,3,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-068,Demo Axiom RB-44,Demo Club Ember,RB,138,143.1,5.1,Development,170.5,117.7,197.8,2,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-069,Demo Garnet RB-45,Demo Club Grove,RB,139,118.9,-20.1,Development,152.2,107.3,180.4,3,4,3,Later-stage fictional profile intended for depth testing.,True
+SYN-135,Demo Garnet WR-51,Demo Club Grove,WR,140,136.4,-3.6,Development,169.9,119.8,205.6,4,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-134,Demo Axiom WR-50,Demo Club Ember,WR,141,147.1,6.1,Development,179.4,126.5,208.1,2,3,3,Balanced fictional projection across the demo inputs.,True
+SYN-019,Demo Solstice QB-19,Demo Club Comet,QB,142,146.3,4.3,Development,233.6,161.2,276.8,3,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-018,Demo Mosaic QB-18,Demo Club Aurora,QB,143,134.2,-8.8,Development,237.7,164.0,275.7,2,3,4,Later-stage fictional profile intended for depth testing.,True
+SYN-186,Demo Axiom TE-30,Demo Club Aurora,TE,144,162.2,18.2,Development,124.8,91.7,147.9,3,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-020,Demo Axiom QB-20,Demo Club Ember,QB,145,147.3,2.3,Development,238.9,164.9,283.2,3,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-070,Demo Mosaic RB-46,Demo Club Ion,RB,146,159.2,13.2,Development,154.9,104.6,187.5,4,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-185,Demo Solstice TE-29,Demo Club Kestrel,TE,147,143.9,-3.1,Development,121.7,82.2,150.3,5,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-071,Demo Solstice RB-47,Demo Club Kestrel,RB,148,146.9,-1.1,Development,149.6,105.5,184.8,5,3,3,Later-stage fictional profile intended for depth testing.,True
+SYN-136,Demo Mosaic WR-52,Demo Club Ion,WR,149,139.7,-9.3,Development,160.8,108.5,194.5,4,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-072,Demo Axiom RB-48,Demo Club Aurora,RB,150,161.4,11.4,Development,144.1,99.5,170.8,3,1,4,Later-stage fictional profile intended for depth testing.,True
+SYN-137,Demo Solstice WR-53,Demo Club Kestrel,WR,151,166.4,15.4,Development,161.6,114.0,195.6,4,4,3,Later-stage fictional profile intended for depth testing.,True
+SYN-139,Demo Garnet WR-55,Demo Club Comet,WR,152,144.7,-7.3,Development,156.8,112.9,189.7,4,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-140,Demo Mosaic WR-56,Demo Club Ember,WR,153,136.0,-17.0,Development,154.3,106.5,186.7,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-138,Demo Axiom WR-54,Demo Club Aurora,WR,154,158.2,4.2,Development,160.1,112.9,189.8,3,4,3,Later-stage fictional profile intended for depth testing.,True
+SYN-187,Demo Garnet TE-31,Demo Club Comet,TE,155,191.0,36.0,Development,124.7,87.9,150.9,4,4,3,Later-stage fictional profile intended for depth testing.,True
+SYN-075,Demo Solstice RB-51,Demo Club Grove,RB,156,152.8,-3.2,Development,133.7,90.2,155.1,2,1,5,Later-stage fictional profile intended for depth testing.,True
+SYN-141,Demo Solstice WR-57,Demo Club Grove,WR,157,161.6,4.6,Development,143.3,105.4,166.3,2,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-074,Demo Mosaic RB-50,Demo Club Ember,RB,158,175.7,17.7,Development,141.8,95.7,171.6,4,1,5,High-variance illustrative profile with extra demo ceiling.,True
+SYN-073,Demo Garnet RB-49,Demo Club Comet,RB,159,159.6,0.6,Development,145.0,100.0,171.8,3,3,4,Later-stage fictional profile intended for depth testing.,True
+SYN-021,Demo Garnet QB-21,Demo Club Grove,QB,160,152.2,-7.8,Development,219.9,161.7,255.1,2,5,1,Stable illustrative workload with a narrow demo range.,True
+SYN-143,Demo Garnet WR-59,Demo Club Kestrel,WR,161,155.7,-5.3,Development,155.3,107.2,191.8,5,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-142,Demo Axiom WR-58,Demo Club Ion,WR,162,171.7,9.7,Development,155.0,109.3,179.9,2,2,3,Later-stage fictional profile intended for depth testing.,True
+SYN-077,Demo Garnet RB-53,Demo Club Kestrel,RB,163,153.7,-9.3,Development,135.4,93.4,160.4,3,3,4,Later-stage fictional profile intended for depth testing.,True
+SYN-189,Demo Solstice TE-33,Demo Club Grove,TE,164,182.1,18.1,Development,110.6,74.6,131.0,3,1,5,Later-stage fictional profile intended for depth testing.,True
+SYN-145,Demo Solstice WR-61,Demo Club Comet,WR,165,162.1,-2.9,Development,152.6,107.6,184.6,4,2,3,Later-stage fictional profile intended for depth testing.,True
+SYN-188,Demo Mosaic TE-32,Demo Club Ember,TE,166,161.5,-4.5,Development,119.6,82.5,141.7,3,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-144,Demo Mosaic WR-60,Demo Club Aurora,WR,167,162.4,-4.6,Development,143.6,101.2,170.2,3,4,3,Later-stage fictional profile intended for depth testing.,True
+SYN-022,Demo Mosaic QB-22,Demo Club Ion,QB,168,182.3,14.3,Development,218.6,150.8,270.0,5,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-191,Demo Garnet TE-35,Demo Club Kestrel,TE,169,180.5,11.5,Development,103.0,71.1,124.6,4,1,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-076,Demo Axiom RB-52,Demo Club Ion,RB,170,149.1,-20.9,Development,146.9,101.3,174.0,3,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-023,Demo Solstice QB-23,Demo Club Kestrel,QB,171,175.2,4.2,Development,203.8,137.5,241.5,3,1,5,Later-stage fictional profile intended for depth testing.,True
+SYN-190,Demo Axiom TE-34,Demo Club Ion,TE,172,168.7,-3.3,Development,110.0,74.2,130.3,3,1,5,Later-stage fictional profile intended for depth testing.,True
+SYN-078,Demo Mosaic RB-54,Demo Club Aurora,RB,173,181.5,8.5,Development,142.6,100.6,176.2,5,4,3,Later-stage fictional profile intended for depth testing.,True
+SYN-146,Demo Axiom WR-62,Demo Club Ember,WR,174,173.6,-0.4,Development,135.6,93.5,157.2,2,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-024,Demo Axiom QB-24,Demo Club Aurora,QB,175,186.0,11.0,Development,206.5,142.5,244.7,3,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-079,Demo Solstice RB-55,Demo Club Comet,RB,176,177.7,1.7,Development,128.3,90.4,152.0,3,2,3,Later-stage fictional profile intended for depth testing.,True
+SYN-081,Demo Garnet RB-57,Demo Club Grove,RB,177,172.7,-4.3,Development,128.8,88.9,155.8,4,3,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-149,Demo Solstice WR-65,Demo Club Kestrel,WR,178,192.0,14.0,Development,124.6,86.0,144.6,2,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-147,Demo Garnet WR-63,Demo Club Grove,WR,179,185.2,6.2,Development,132.9,89.7,154.2,2,1,5,Later-stage fictional profile intended for depth testing.,True
+SYN-150,Demo Axiom WR-66,Demo Club Aurora,WR,180,192.0,12.0,Development,135.9,93.8,157.7,2,3,4,Later-stage fictional profile intended for depth testing.,True
+SYN-192,Demo Mosaic TE-36,Demo Club Aurora,TE,181,191.3,10.3,Development,111.3,80.1,137.5,5,4,2,Stable illustrative workload with a narrow demo range.,True
+SYN-148,Demo Mosaic WR-64,Demo Club Ion,WR,182,172.7,-9.3,Development,140.6,94.9,163.1,2,2,5,Later-stage fictional profile intended for depth testing.,True
+SYN-080,Demo Axiom RB-56,Demo Club Ember,RB,183,162.7,-20.3,Development,136.9,96.5,162.2,3,2,3,Later-stage fictional profile intended for depth testing.,True
+SYN-082,Demo Mosaic RB-58,Demo Club Ion,RB,184,192.0,8.0,Development,121.0,85.3,140.4,2,3,3,Later-stage fictional profile intended for depth testing.,True
+SYN-152,Demo Mosaic WR-68,Demo Club Ember,WR,185,192.0,7.0,Development,118.8,80.2,140.8,3,1,5,Later-stage fictional profile intended for depth testing.,True
+SYN-151,Demo Garnet WR-67,Demo Club Comet,WR,186,192.0,6.0,Development,133.0,91.8,161.0,4,2,4,High-variance illustrative profile with extra demo ceiling.,True
+SYN-083,Demo Solstice RB-59,Demo Club Kestrel,RB,187,173.0,-14.0,Development,125.5,84.7,145.6,2,1,5,Later-stage fictional profile intended for depth testing.,True
+SYN-084,Demo Axiom RB-60,Demo Club Aurora,RB,188,192.0,4.0,Development,114.8,81.0,133.2,2,2,3,Later-stage fictional profile intended for depth testing.,True
+SYN-154,Demo Axiom WR-70,Demo Club Ion,WR,189,171.2,-17.8,Development,123.5,87.1,143.3,2,3,3,Later-stage fictional profile intended for depth testing.,True
+SYN-155,Demo Garnet WR-71,Demo Club Kestrel,WR,190,190.0,0.0,Development,122.9,84.8,145.7,3,2,4,Later-stage fictional profile intended for depth testing.,True
+SYN-153,Demo Solstice WR-69,Demo Club Grove,WR,191,191.5,0.5,Development,126.7,91.2,150.1,3,5,2,Stable illustrative workload with a narrow demo range.,True
+SYN-156,Demo Mosaic WR-72,Demo Club Aurora,WR,192,188.8,-3.2,Development,110.5,76.3,131.0,3,2,4,Later-stage fictional profile intended for depth testing.,True
