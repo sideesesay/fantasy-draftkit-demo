@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 from draftlab.data import load_players
-from draftlab.logic import roster_for_team, roster_needs, roster_score, swap_preview
+from draftlab.logic import roster_for_team, roster_insights, roster_needs, roster_score, swap_preview
 from draftlab.ui import player_option, settings
 
 
@@ -24,12 +24,20 @@ if roster.empty:
     st.info("Add a demo player from On the clock or Draft tracker to begin a roster review.")
     st.stop()
 
-review = roster_score(roster, config["lineup"], len(players))
+review = roster_score(roster, config["lineup"], len(players), config["league_size"])
 with st.container(horizontal=True):
     st.metric("Roster score", f"{review['score']:.1f}", border=True)
     st.metric("Build", review["label"], border=True)
     st.metric("Starter coverage", f"{review['coverage']:.0f}%", border=True)
+    st.metric("Draft value", f"{review['draft_value']:.0f}/100", border=True)
+    st.metric(
+        "Draft timing",
+        f"{review['draft_timing']:.0f}/100" if review["draft_timing"] is not None else "—",
+        f"{review['value_timing_count']} recorded pick(s)",
+        border=True,
+    )
     st.metric("Stability", f"{review['stability']:.0f}%", border=True)
+st.caption("Draft Value is 60% synthetic source value and 40% fictional Market Pick versus actual tracker pick. It uses source value only until a pick is recorded.")
 
 display = roster[
     ["pick", "player_name", "club", "position", "model_rank", "market_pick", "value_delta", "tier"]
@@ -72,6 +80,21 @@ with right.container(border=True):
     else:
         st.write("The demo starting structure is filled; compare depth and value next.")
 
+strengths, weaknesses, recommendations = roster_insights(roster, config["lineup"])
+strength_col, weakness_col, recommendation_col = st.columns(3)
+with strength_col.container(border=True):
+    st.subheader("Strengths")
+    for item in strengths:
+        st.write(f"• {item}")
+with weakness_col.container(border=True):
+    st.subheader("Weaknesses")
+    for item in weaknesses:
+        st.write(f"• {item}")
+with recommendation_col.container(border=True):
+    st.subheader("Improve next")
+    for item in recommendations:
+        st.write(f"• {item}")
+
 st.subheader("Swap preview")
 st.caption("This calculation never changes the tracker and makes no claim about a real trade market.")
 candidate_pool = players[~players["player_id"].isin(roster["player_id"])]
@@ -100,6 +123,7 @@ before, after, _ = swap_preview(
     receive_row,
     config["lineup"],
     len(players),
+    config["league_size"],
 )
 delta = after["score"] - before["score"]
 with st.container(horizontal=True):

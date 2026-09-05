@@ -248,6 +248,37 @@ def roster_needs(roster: pd.DataFrame, lineup: Mapping[str, int]) -> dict[str, i
     return needs
 
 
+def market_timing_score(actual_pick: float, market_pick: float, team_count: int) -> float:
+    """Score a fictional pick price against the supplied synthetic market."""
+    delta = actual_pick - market_pick
+    if delta < 0:
+        return max(0.0, min(100.0, 75.0 + delta * (35.0 / max(team_count, 1))))
+    return max(
+        0.0,
+        min(
+            100.0,
+            75.0 + 25.0 * math.exp(-((delta - team_count) / max(team_count, 1)) ** 2),
+        ),
+    )
+
+
+def draft_value_at_cost_score(
+    value_delta: Any,
+    actual_pick: Any,
+    market_pick: Any,
+    team_count: int,
+) -> tuple[float, float | None, bool]:
+    """Blend synthetic source value with the fictional price actually paid."""
+    value = pd.to_numeric(pd.Series([value_delta]), errors="coerce").iloc[0]
+    source_score = max(0.0, min(100.0, 50.0 + float(value) * 3.0)) if pd.notna(value) else 50.0
+    actual = pd.to_numeric(pd.Series([actual_pick]), errors="coerce").iloc[0]
+    market = pd.to_numeric(pd.Series([market_pick]), errors="coerce").iloc[0]
+    if pd.isna(actual) or pd.isna(market):
+        return source_score, None, False
+    timing = market_timing_score(float(actual), float(market), team_count)
+    return max(0.0, min(100.0, source_score * 0.60 + timing * 0.40)), timing, True
+
+
 def recommend_players(
     players: pd.DataFrame,
     drafted_ids: Collection[str],
@@ -313,14 +344,18 @@ def roster_score(
     roster: pd.DataFrame,
     lineup: Mapping[str, int],
     pool_size: int,
+    team_count: int = 10,
 ) -> dict[str, Any]:
-    """Grade a fictional roster on quality, coverage, upside, and stability."""
+    """Grade a fictional roster on quality, coverage, value, upside, and stability."""
     if roster.empty:
         return {
             "score": 0.0,
             "label": "Not started",
             "coverage": 0.0,
             "quality": 0.0,
+            "draft_value": 0.0,
+            "draft_timing": None,
+            "value_timing_count": 0,
             "upside": 0.0,
             "stability": 0.0,
         }
@@ -333,9 +368,28 @@ def roster_score(
         100.0
         - (roster["model_rank"] - 1) * 100.0 / max(pool_size - 1, 1)
     ).mean()
+    value_components = roster.apply(
+        lambda row: draft_value_at_cost_score(
+            row.get("value_delta"),
+            row.get("pick"),
+            row.get("market_pick"),
+            team_count,
+        ),
+        axis=1,
+    )
+    draft_value = float(value_components.map(lambda item: item[0]).mean())
+    timing_values = [item[1] for item in value_components if item[1] is not None]
+    draft_timing = float(sum(timing_values) / len(timing_values)) if timing_values else None
+    value_timing_count = int(sum(item[2] for item in value_components))
     upside = ((roster["upside"].mean() - 1) / 4 * 100).clip(0, 100)
     stability = ((5 - roster["risk"].mean()) / 4 * 100).clip(0, 100)
-    score = float(0.45 * quality + 0.25 * coverage + 0.17 * upside + 0.13 * stability)
+    score = float(
+        0.40 * quality
+        + 0.22 * coverage
+        + 0.15 * draft_value
+        + 0.12 * upside
+        + 0.11 * stability
+    )
     score = round(max(0.0, min(100.0, score)), 1)
     if score >= 78:
         label = "Strong demo build"
@@ -350,9 +404,37 @@ def roster_score(
         "label": label,
         "coverage": round(float(coverage), 1),
         "quality": round(float(quality), 1),
+        "draft_value": round(float(draft_value), 1),
+        "draft_timing": round(float(draft_timing), 1) if draft_timing is not None else None,
+        "value_timing_count": value_timing_count,
         "upside": round(float(upside), 1),
         "stability": round(float(stability), 1),
     }
+
+
+def roster_insights(roster: pd.DataFrame, lineup: Mapping[str, int]) -> tuple[list[str], list[str], list[str]]:
+    """Return concise synthetic roster strengths, weaknesses, and next steps."""
+    if roster.empty:
+        return [], ["No fictional player selections are recorded yet."], ["Record a tracker pick to begin the demo roster review."]
+    needs = roster_needs(roster, lineup)
+    strengths: list[str] = []
+    weaknesses: list[str] = []
+    recommendations: list[str] = []
+    best_ranked = roster.loc[roster["model_rank"].idxmin()]
+    strengths.append(
+        f"{best_ranked.player_name} is the best current model-rank anchor (rank {int(best_ranked.model_rank)})."
+    )
+    if float(roster["value_delta"].mean()) > 0:
+        strengths.append("The current roster has positive average synthetic source value.")
+    missing = [f"{count} {position}" for position, count in needs.items() if count]
+    if missing:
+        weaknesses.append("Open lineup needs: " + ", ".join(missing) + ".")
+        recommendations.append("Prioritize an available fictional player at an open group before adding more depth.")
+    if float(roster["value_delta"].mean()) < 0:
+        weaknesses.append("Average synthetic source value is below market; later picks should favor positive-value profiles.")
+    if not recommendations:
+        recommendations.append("With the demo starting structure filled, use Market Pick versus actual pick to choose the better value profile.")
+    return strengths[:2], weaknesses[:2], recommendations[:2]
 
 
 def tracker_grid(
@@ -382,14 +464,15 @@ def swap_preview(
     receive_row: pd.Series,
     lineup: Mapping[str, int],
     pool_size: int,
+    team_count: int = 10,
 ) -> tuple[dict[str, Any], dict[str, Any], pd.DataFrame]:
     """Preview a one-for-one fictional swap without mutating draft state."""
-    before = roster_score(roster, lineup, pool_size)
+    before = roster_score(roster, lineup, pool_size, team_count)
     after_roster = roster[roster["player_id"] != give_id].copy()
     after_roster = pd.concat([after_roster, receive_row.to_frame().T], ignore_index=True)
     for column in ("model_rank", "upside", "risk"):
         after_roster[column] = pd.to_numeric(after_roster[column], errors="coerce")
-    after = roster_score(after_roster, lineup, pool_size)
+    after = roster_score(after_roster, lineup, pool_size, team_count)
     return before, after, after_roster
 
 

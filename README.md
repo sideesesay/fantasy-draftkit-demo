@@ -14,7 +14,7 @@ requirement, or server-wide user-state file.
 
 - Filterable fictional draft board with targets and drafted status.
 - Transparent On the clock recommendations based on documented demo formulas.
-- Side-by-side player comparison and fictional trend chart.
+- Side-by-side player and tracker-synced team comparison with fictional trend charts.
 - Configurable 8-, 10-, or 12-team snake-draft tracker.
 - Isolated mock-draft mode with synthetic opponent picks and adjustable variation.
 - Session-only roster grading and one-for-one swap preview.
@@ -81,6 +81,20 @@ basic need while it has none of the other. Starting needs are favored first;
 open FLEX spots then raise RB/WR weight, with a larger boost for **Double
 flex**. These guardrails do not pull a player from outside the chosen market
 window or turn the demo into a fixed scripted draft.
+
+## Team comparison and roster value
+
+The **Compare** page has a **Teams** mode that reads any two rosters directly
+from the temporary manual Draft Tracker. It shows each fictional roster,
+coverage, quality, synthetic draft value, timing, upside, stability,
+position-group openings, concise strengths/weaknesses, next-step guidance,
+and a pick-versus-market recap. No second roster is maintained, so tracker
+changes appear in the comparison immediately.
+
+The demo's **Draft value** score is price-aware: it blends 60% fictional source
+value with 40% fictional Market Pick versus the actual tracker pick. A
+profile drafted after its synthetic market slot receives more credit than the
+same profile drafted too early. Unrecorded picks use source value only.
 
 Regenerate the fixtures with:
 

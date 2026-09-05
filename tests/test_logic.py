@@ -9,6 +9,7 @@ import pandas as pd
 from draftlab.data import validate_players
 from draftlab.logic import (
     LINEUP_PRESETS,
+    draft_value_at_cost_score,
     mock_best_available_player,
     mock_position_weight,
     next_open_pick,
@@ -121,6 +122,14 @@ class DraftLogicTests(unittest.TestCase):
         review = roster_score(roster, LINEUP_PRESETS["Classic"], len(self.players))
         self.assertGreaterEqual(review["score"], 0)
         self.assertLessEqual(review["score"], 100)
+
+    def test_synthetic_draft_value_accounts_for_the_tracker_pick_paid(self) -> None:
+        early_score, _, early_has_price = draft_value_at_cost_score(0.0, 10, 20.0, 10)
+        late_score, _, late_has_price = draft_value_at_cost_score(0.0, 30, 20.0, 10)
+
+        self.assertTrue(early_has_price)
+        self.assertTrue(late_has_price)
+        self.assertGreater(late_score, early_score)
 
     def test_flex_openings_do_not_double_count_direct_starters(self) -> None:
         empty_roster = self.players.iloc[0:0]

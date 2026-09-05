@@ -42,6 +42,16 @@ class AppSmokeTests(unittest.TestCase):
         self.assertIn(5, app.session_state["mock_draft_board"])
         self.assertEqual(app.session_state["draft_board"], {1: "SYN-192"})
 
+    def test_team_comparison_reads_the_manual_tracker_board(self) -> None:
+        app = AppTest.from_file(str(ROOT / "streamlit_app.py"), default_timeout=15).run()
+        app.session_state["draft_board"] = {1: "SYN-001", 2: "SYN-002"}
+        app.switch_page("app_pages/compare.py").run(timeout=15)
+
+        app.segmented_control(key="compare_mode").set_value("Teams").run(timeout=15)
+
+        self.assertEqual(list(app.exception), [])
+        self.assertTrue(any("Team comparison" in title.value for title in app.title))
+
 
 if __name__ == "__main__":
     unittest.main()
