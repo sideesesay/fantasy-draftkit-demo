@@ -10,6 +10,7 @@ from draftlab.data import validate_players
 from draftlab.logic import (
     LINEUP_PRESETS,
     mock_best_available_player,
+    mock_position_weight,
     next_open_pick,
     pick_for_team,
     recommend_players,
@@ -77,6 +78,37 @@ class DraftLogicTests(unittest.TestCase):
         self.assertEqual((drafted, user_pick), (2, 3))
         self.assertEqual(set(board), {1, 2})
         self.assertEqual(len(set(board.values())), 2)
+
+    def test_mock_guardrails_block_a_third_qb_inside_the_market_cluster(self) -> None:
+        players = pd.DataFrame(
+            [
+                {"player_id": "QB-1", "position": "QB", "market_pick": 1.0, "model_rank": 1},
+                {"player_id": "QB-2", "position": "QB", "market_pick": 2.0, "model_rank": 2},
+                {"player_id": "QB-3", "position": "QB", "market_pick": 3.0, "model_rank": 3},
+                {"player_id": "RB-1", "position": "RB", "market_pick": 4.0, "model_rank": 4},
+            ]
+        )
+        # Team 2 owns Pick 2 in round one and Pick 19 in round two of a
+        # ten-team snake draft.
+        assignments = {2: "QB-1", 19: "QB-2"}
+        selected = mock_best_available_player(
+            players,
+            set(assignments.values()),
+            variation="Low",
+            rng=random.Random(7),
+            team_slot=2,
+            assignments=assignments,
+            team_count=10,
+            lineup=LINEUP_PRESETS["Classic"],
+        )
+        self.assertEqual(selected, "RB-1")
+
+    def test_double_flex_increases_rb_wr_depth_weight(self) -> None:
+        counts = {"QB": 1, "RB": 2, "WR": 2, "TE": 1}
+        self.assertGreater(
+            mock_position_weight("RB", counts, LINEUP_PRESETS["Double flex"]),
+            mock_position_weight("RB", counts, LINEUP_PRESETS["Classic"]),
+        )
 
     def test_roster_needs_and_score_are_bounded(self) -> None:
         assignments = {

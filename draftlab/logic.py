@@ -57,13 +57,66 @@ def next_open_pick(
     return None
 
 
+def mock_team_position_counts(
+    players: pd.DataFrame,
+    assignments: Mapping[int, str],
+    team_slot: int,
+    team_count: int,
+) -> dict[str, int]:
+    """Count one fictional mock team's QB/RB/WR/TE selections."""
+    roster = roster_for_team(players, assignments, team_slot, team_count)
+    counts = roster["position"].value_counts().to_dict() if not roster.empty else {}
+    return {position: int(counts.get(position, 0)) for position in ("QB", "RB", "WR", "TE")}
+
+
+def mock_position_weight(
+    position: Any,
+    counts: Mapping[str, int],
+    lineup: Mapping[str, int],
+) -> float:
+    """Return a roster-aware weight for a fictional opponent candidate.
+
+    The guardrails work only inside the existing synthetic Market-ADP cluster.
+    They prevent obvious positional over-drafting while leaving opponent picks
+    probabilistic and market-led.
+    """
+    position = str(position).upper()
+    if position not in {"QB", "RB", "WR", "TE"}:
+        return 1.0
+    required = {key: int(lineup.get(key, 0)) for key in ("QB", "RB", "WR", "TE")}
+    flex_slots = int(lineup.get("FLEX", 0))
+    flex_used = sum(max(int(counts.get(key, 0)) - required[key], 0) for key in SKILL_POSITIONS)
+    open_flex = max(flex_slots - flex_used, 0)
+
+    if position in {"QB", "TE"}:
+        if int(counts.get(position, 0)) >= 2:
+            return 0.0
+        return 2.2 if int(counts.get(position, 0)) < required[position] else 0.35
+
+    other = "WR" if position == "RB" else "RB"
+    own_count, other_count = int(counts.get(position, 0)), int(counts.get(other, 0))
+    basic_need = max(required[position], 1 if flex_slots else 0)
+    other_basic_need = max(required[other], 1 if flex_slots else 0)
+    if other_count == 0 and own_count >= basic_need and other_basic_need:
+        return 0.0
+    if own_count < required[position]:
+        return 2.2
+    if open_flex:
+        return 1.35 + (0.20 * flex_slots)
+    return 0.85
+
+
 def mock_best_available_player(
     players: pd.DataFrame,
     drafted_ids: Collection[str],
     variation: str = "Medium",
     rng: random.Random | None = None,
+    team_slot: int | None = None,
+    assignments: Mapping[int, str] | None = None,
+    team_count: int | None = None,
+    lineup: Mapping[str, int] | None = None,
 ) -> str | None:
-    """Choose a fictional opponent pick near the best available market pick."""
+    """Choose a market-led fictional opponent pick with roster guardrails."""
     available = players[~players["player_id"].isin(set(drafted_ids))].copy()
     if available.empty:
         return None
@@ -86,12 +139,30 @@ def mock_best_available_player(
     best_market_pick = float(market_available.iloc[0]["_market_pick"])
     candidate_pool = market_available[
         market_available["_market_pick"] <= best_market_pick + window
-    ]
-    weights = [
+    ].copy()
+    candidate_pool["_mock_weight"] = [
         math.exp(-((float(market_pick) - best_market_pick) / spread))
         for market_pick in candidate_pool["_market_pick"]
     ]
-    return str(rng.choices(candidate_pool["player_id"].tolist(), weights=weights, k=1)[0])
+    if all(value is not None for value in (team_slot, assignments, team_count, lineup)):
+        counts = mock_team_position_counts(players, assignments or {}, int(team_slot), int(team_count))
+        candidate_pool["_position_weight"] = candidate_pool["position"].map(
+            lambda position: mock_position_weight(position, counts, lineup or {})
+        )
+        eligible_pool = candidate_pool[candidate_pool["_position_weight"] > 0].copy()
+        # If an exceptionally narrow ADP cluster contains only capped
+        # positions, retain it instead of inventing a player outside the
+        # selected synthetic market window.
+        if not eligible_pool.empty:
+            candidate_pool = eligible_pool
+            candidate_pool["_mock_weight"] *= candidate_pool["_position_weight"]
+    return str(
+        rng.choices(
+            candidate_pool["player_id"].tolist(),
+            weights=candidate_pool["_mock_weight"].tolist(),
+            k=1,
+        )[0]
+    )
 
 
 def simulate_mock_until_user_pick(
@@ -102,6 +173,7 @@ def simulate_mock_until_user_pick(
     user_slot: int,
     variation: str = "Medium",
     rng: random.Random | None = None,
+    lineup: Mapping[str, int] | None = None,
 ) -> tuple[dict[int, str], int, int | None]:
     """Fill open opponent picks in order and stop before the user's next pick."""
     if not 1 <= user_slot <= team_count:
@@ -109,6 +181,7 @@ def simulate_mock_until_user_pick(
     board = {int(pick): player_id for pick, player_id in assignments.items()}
     drafted_ids = set(board.values())
     mock_rng = rng or random.Random()
+    active_lineup = lineup or LINEUP_PRESETS["Classic"]
     drafted = 0
     maximum = team_count * rounds
 
@@ -122,6 +195,10 @@ def simulate_mock_until_user_pick(
             drafted_ids,
             variation=variation,
             rng=mock_rng,
+            team_slot=snake_team_for_pick(pick, team_count),
+            assignments=board,
+            team_count=team_count,
+            lineup=active_lineup,
         )
         if player_id is None:
             break

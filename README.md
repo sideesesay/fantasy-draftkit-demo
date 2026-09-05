@@ -74,6 +74,14 @@ available synthetic market pick: Low uses 3 spots, Medium uses 6, and High uses
 deterministic session seed and clears only the practice board; the manual
 tracker remains unchanged.
 
+Within that same synthetic market window, each fictional opponent tracks its
+own QB/RB/WR/TE roster. A third QB or TE is blocked when another eligible
+option exists, and a team cannot keep stacking RB or WR after meeting its
+basic need while it has none of the other. Starting needs are favored first;
+open FLEX spots then raise RB/WR weight, with a larger boost for **Double
+flex**. These guardrails do not pull a player from outside the chosen market
+window or turn the demo into a fixed scripted draft.
+
 Regenerate the fixtures with:
 
 ```powershell

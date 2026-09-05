@@ -112,7 +112,8 @@ with st.container(horizontal=True):
 variation_window = {"Low": 3, "Medium": 6, "High": 10}[config["variation"]]
 st.info(
     f"Fictional opponents sample within {variation_window} synthetic market-pick spots of the "
-    "best available profile. Lower market picks remain more likely, and simulation always stops "
+    "best available profile. Their own roster needs reweight that same pool to avoid obvious "
+    "position over-drafting; lower market picks remain more likely, and simulation always stops "
     "before your selection.",
     icon=":material/casino:",
 )
@@ -148,6 +149,7 @@ with st.container(horizontal=True):
             config["draft_slot"],
             variation=config["variation"],
             rng=rng,
+            lineup=config["lineup"],
         )
         st.session_state.mock_draft_board = updated_board
         st.session_state.mock_auto_runs += 1

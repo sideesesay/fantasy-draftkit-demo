@@ -198,9 +198,9 @@ def reconcile_board_dimensions() -> bool:
 
 
 def reconcile_mock_board_dimensions() -> bool:
-    """Clear only mock picks when the practice-board dimensions change."""
+    """Clear only mock picks when a practice format setting changes."""
     config = mock_settings()
-    signature = (config["league_size"], config["rounds"], config["draft_slot"])
+    signature = (config["league_size"], config["rounds"], config["draft_slot"], config["preset"])
     previous = st.session_state.get("mock_board_signature")
     changed_with_picks = (
         previous is not None
